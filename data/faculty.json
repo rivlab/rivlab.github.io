@@ -1,13 +1,13 @@
 {
   "faculty": [
     {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "",
-      "linkedin": "",
+      "name": "Hassan Khotanlou",
+      "field": "Professor - Head of Lab",
+      "image": "./image/Hassan_Khotanlou.jpg",
+      "linkedin": "https://www.linkedin.com/in/hassan-khotanlou-9aa2a865/",
       "github": "",
-      "google_scholar": "",
-      "homepage": ""
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=5YX31NgAAAAJ",
+      "homepage": "https://basu.ac.ir/~khotanlou"
     }
   ]
 }
