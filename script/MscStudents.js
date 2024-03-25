@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("./data/MScStudents.json")
     .then((response) => response.json())
     .then((data) => {
-      MscStudents = data.MscStudents;
+      MscStudents = data.MScStudents;
       const outputDiv = document.getElementById("MSCStudents_box_team");
       MscStudentsResult = "";
       MscStudents.map((val, index) => {
