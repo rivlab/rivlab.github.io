@@ -2,43 +2,75 @@
   "PHDStudents": [
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg"
+      "field": "Applied Research Scientist",
+      "image": "./image/ehsanakefi.jpg",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     },
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg"
+      "field": "Applied Research Scientist",
+      "image": "./image/ehsanakefi.jpg",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     },
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": ""
+      "field": "Applied Research Scientist",
+      "image": "",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     },
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg"
+      "field": "Applied Research Scientist",
+      "image": "./image/ehsanakefi.jpg",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     },
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg"
+      "field": "Applied Research Scientist",
+      "image": "./image/ehsanakefi.jpg",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     },
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg"
+      "field": "Applied Research Scientist",
+      "image": "./image/ehsanakefi.jpg",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     },
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg"
+      "field": "Applied Research Scientist",
+      "image": "./image/ehsanakefi.jpg",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     },
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg"
+      "field": "Applied Research Scientist",
+      "image": "./image/ehsanakefi.jpg",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     }
   ]
 }

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("./data/ourTeam.json")
+  fetch("./data/BScStudents.json")
     .then((response) => response.json())
     .then((data) => {
       ourTeam = data.ourTeam;
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
               </div>
               <div class="text_team">
                 <p class="name_text_team">${val.name}</p>
-                <p class="status_text_team">${val.explan}</p>
+                <p class="status_text_team">${val.field}</p>
                 <div class="icons_team">
                   <img src="./image/linkdin.png" class="icons_team_img" />
                   <img src="./image/git.png" class="icons_team_img" />

@@ -2,8 +2,12 @@
   "faculty": [
     {
       "name": "Ehsan Akefi",
-      "explan": "Applied Research Scientist",
-      "image": ""
+      "field": "Applied Research Scientist",
+      "image": "",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
     }
   ]
 }
