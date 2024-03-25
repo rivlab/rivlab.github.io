@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("./data/BScStudents.json")
     .then((response) => response.json())
     .then((data) => {
-      ourTeam = data.ourTeam;
+      ourTeam = data.BScStudents;
       const outputDiv = document.getElementById("ourteam_box_team");
       ourTeamResult = "";
       ourTeam.map((val, index) => {
