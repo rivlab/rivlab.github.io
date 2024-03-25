@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("./data/PhDStudents.json")
     .then((response) => response.json())
     .then((data) => {
-      PHDStudents = data.PHDStudents;
+      PHDStudents = data.PhDStudents;
       const outputDiv = document.getElementById("PHDStudents_box_team");
       PHDStudentsResult = "";
       PHDStudents.map((val, index) => {
