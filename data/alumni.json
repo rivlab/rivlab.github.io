@@ -50,10 +50,18 @@
     },
     {
       "name": "Moein Hasani",
-      "field": "Former BSc (2016-2020), now at Yardi Systems Canada",
+      "field": "Former BSc (2016-2020), now ML Engineer at Yardi Systems Canada",
       "linkedin": "https://www.linkedin.com/in/moein-hasani/",
       "github": "https://github.com/Moeinh77",
       "google_scholar": "https://scholar.google.com/citations?user=1j2RPnUAAAAJ&hl=en&authuser=1&oi=sra",
+      "homepage": ""
+    },
+    {
+      "name": "Elham Azizi",
+      "field": "Former BSc (2015-2020), now ML Engineer at Sinn Studio Inc.",
+      "linkedin": "https://www.linkedin.com/in/elhamazizi9/",
+      "github": "",
+      "google_scholar": "",
       "homepage": ""
     },
     {
