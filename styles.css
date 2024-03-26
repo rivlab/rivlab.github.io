@@ -148,8 +148,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: -8.5rem;
-  min-height: 100vh;
+  margin-top: -5.6rem;
+  min-height: 101vh;
   background: rgb(54, 83, 100);
   background: linear-gradient(
     180deg,
@@ -163,14 +163,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 3rem 8rem;
+  padding: 3rem 10.6rem;
 }
 header {
   display: flex;
   align-items: center;
   position: sticky;
   justify-content: space-between;
-  padding: 0 8rem;
+  padding: 0 10.6rem;
   top: 3rem;
   z-index: 1;
   color: #000;
@@ -213,7 +213,7 @@ header.scrolled .logo {
 .poster {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 22%;
+  margin-top: 16%;
   flex: 1;
 }
 .poster_image {
@@ -273,7 +273,7 @@ header.scrolled .logo {
   color: #ffffff;
   font-size: 1.35rem;
   font-weight: bold;
-  padding: 0.7rem 1.7rem;
+  padding: 0.65rem 1.75rem;
   border-radius: 3.064rem;
 }
 /* part one*/
@@ -284,8 +284,14 @@ header.scrolled .logo {
   width: 100%;
 }
 .h_aboutus {
-  font-size: 1.5rem;
+  font-size: 2.1rem;
   margin: 0 0 1rem 0;
+  font-family: Inter-Medium;
+}
+.h_aboutus1 {
+  font-size: 2.1rem;
+  margin: 0 0 1rem 0;
+  font-family: Inter-ExtraLight;
   color: #797d7f;
 }
 .box_text_aboutus {
@@ -294,10 +300,11 @@ header.scrolled .logo {
   justify-content: center;
 }
 .t_aboutus {
-  font-size: 1.3rem;
+  font-family: Inter-Light;
+  font-size: 1.4rem;
   line-height: 1.8rem;
   margin-top: 2rem;
-  width: 90%;
+  width: 87%;
   text-align: justify;
 }
 /* part two*/
@@ -319,21 +326,22 @@ header.scrolled .logo {
   flex-wrap: wrap;
 }
 .card {
-  width: 20%;
-  margin: 1.5rem 1.5%;
+  width: 23%;
+  margin: 1.5rem 1%;
   min-width: 13rem;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
 .card1 {
-  width: 20%;
-  padding: 0.5rem;
-  margin: 1.5rem 1.5%;
+  padding: 0.5rem 0.7rem;
+  width: 23%;
+  margin: 1.5rem 1%;
   min-width: 13rem;
   border: 1px solid transparent;
   display: flex;
   flex-direction: column;
+  border-radius: 0.3rem;
 }
 .card1:hover {
   border: 0.1rem solid #76c4f6;
@@ -365,12 +373,13 @@ header.scrolled .logo {
   height: 100%;
 }
 .name_text_team {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: Inter-Bold;
   margin: 0.5rem 0 0 0;
 }
 .status_text_team {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  font-family: Inter-Light;
   color: var(--gray);
   margin: 0.2rem 0;
 }
@@ -384,8 +393,8 @@ header.scrolled .logo {
   margin: 1rem 0 0 0;
 }
 .icons_team_img {
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 1.1rem;
+  height: 1.1rem;
   margin-right: 0.5rem;
 }
 /* part three*/
@@ -416,6 +425,7 @@ header.scrolled .logo {
 .box_text_explan_join {
   border: 0.2rem solid #ffffff;
   padding: 0.7rem;
+  border-radius: 0.625rem;
 }
 .last_box_text_explan_join {
   margin-top: 2rem;
@@ -436,6 +446,10 @@ header.scrolled .logo {
 }
 .right_join {
   flex: 3;
+}
+.image_Join {
+  width: 20rem;
+  height: 15rem;
 }
 /* part four*/
 .fourth_view {
@@ -713,15 +727,36 @@ header.scrolled .logo {
 @media screen and (max-width: 750px) {
   .part_poster1 {
     position: absolute;
-    bottom: 10rem;
+    top: 8rem;
   }
-
+  .logo {
+    width: 5%;
+    min-width: 3.5625rem;
+    min-height: 1.8125rem;
+    margin-left: -1rem;
+  }
+  .first_view {
+    min-height: auto;
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    top: 0;
+    z-index: 1;
+    color: #000;
+    background-color: #ffffff;
+    transition: top 0.5s ease-in-out, background-color 0.35s ease-out;
+  }
   .subject h1 {
-    font-size: 2.25rem;
+    font-size: 5.7vmin;
   }
   .header_list {
     position: fixed;
-    left: -140%;
+    left: -100%;
     top: 3rem;
     gap: 0;
     flex-direction: column;
@@ -756,12 +791,14 @@ header.scrolled .logo {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
+  .second_view {
+    margin-top: 2rem;
+  }
   .poster {
     flex-direction: column;
   }
   .poster_image {
-    width: 45%;
+    width: 40%;
   }
   .containe {
     padding: 3rem 3rem;
@@ -808,15 +845,16 @@ header.scrolled .logo {
     flex: 1;
   }
   .subject h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    max-width: 11rem;
   }
   .poster_image {
-    width: 50%;
+    width: 48%;
     /* width: 15rem; */
   }
   .part_poster1 {
     position: absolute;
-    bottom: 6rem;
+    top: 6rem;
     right: 0;
     min-width: 1rem;
   }
