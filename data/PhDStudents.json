@@ -1,72 +1,45 @@
 {
   "PhDStudents": [
     {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg",
+      "name": "Elham Alighardash",
+      "field": "Visual Question Answering",
+      "image": "./image/Elham_Alighardash.jpg",
       "linkedin": "",
+      "github": "",
+      "google_scholar": "https://scholar.google.com/citations?user=RP3j9S8AAAAJ&hl=en",
+      "homepage": ""
+    },
+    {
+      "name": "Reza Yazdi",
+      "field": "Computer Vision",
+      "image": "./image/Reza_Yazdi.jpg",
+      "linkedin": "https://www.linkedin.com/in/reza-yazdi/",
       "github": "",
       "google_scholar": "",
       "homepage": ""
     },
     {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg",
-      "linkedin": "",
+      "name": "Mojtaba Kordabadi",
+      "field": "Machine Learning",
+      "image": "./image/Mojtaba_Kordabadi.jfif",
+      "linkedin": "https://www.linkedin.com/in/mojtaba-kordabadi-02193487/",
       "github": "",
       "google_scholar": "",
       "homepage": ""
     },
     {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
+      "name": "Homayoun Rastegar",
+      "field": "Machine Vision",
       "image": "",
       "linkedin": "",
       "github": "",
-      "google_scholar": "",
+      "google_scholar": "https://scholar.google.com/citations?user=P7dMnEgAAAAJ&hl=en",
       "homepage": ""
     },
     {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg",
-      "linkedin": "",
-      "github": "",
-      "google_scholar": "",
-      "homepage": ""
-    },
-    {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg",
-      "linkedin": "",
-      "github": "",
-      "google_scholar": "",
-      "homepage": ""
-    },
-    {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg",
-      "linkedin": "",
-      "github": "",
-      "google_scholar": "",
-      "homepage": ""
-    },
-    {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg",
-      "linkedin": "",
-      "github": "",
-      "google_scholar": "",
-      "homepage": ""
-    },
-    {
-      "name": "Ehsan Akefi",
-      "field": "Applied Research Scientist",
-      "image": "./image/ehsanakefi.jpg",
+      "name": "Zahra Aghaei",
+      "field": "Machine Learning",
+      "image": "",
       "linkedin": "",
       "github": "",
       "google_scholar": "",
