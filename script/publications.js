@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
               </p>
             </div>
             <p class="jurnal">
-            ${val.jurnal}
+            ${val.journal}, ${val.year}
             </p>
             <p class="author">
             ${val.author}
