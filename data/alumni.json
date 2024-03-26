@@ -18,7 +18,7 @@
     },
     {
       "name": "Elham Afshar",
-      "field": "Former MSc (2019-2022), now college lecturer at Bu-Ali Sina University",
+      "field": "Former MSc (2019-2022), now college lecturer at BASU",
       "linkedin": "https://www.linkedin.com/in/elham-afshar-45669811a/",
       "github": "",
       "google_scholar": "",
@@ -26,8 +26,16 @@
     },
     {
       "name": "Zahra Famil Sattari",
-      "field": "Former MSc (2019-2022), now college lecturer at Bu-Ali Sina University",
+      "field": "Former MSc (2019-2022), now college lecturer at BASU",
       "linkedin": "https://www.linkedin.com/in/zahra-sattari/",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
+    },
+    {
+      "name": "Siamand Avestan",
+      "field": "Former MSc (2019-2021)",
+      "linkedin": "https://www.linkedin.com/in/siamand-avestan-257a45203/",
       "github": "",
       "google_scholar": "",
       "homepage": ""
@@ -41,11 +49,43 @@
       "homepage": ""
     },
     {
+      "name": "Moein Peyghambar zadeh",
+      "field": "Former MSc (2016-2019), now MSc at Politecnico di Milano",
+      "linkedin": "https://www.linkedin.com/in/moein-peyghambarzadeh/",
+      "github": "",
+      "google_scholar": "https://scholar.google.com/citations?user=QYTpPWIAAAAJ&hl=en&authuser=1&oi=sra",
+      "homepage": ""
+    },
+    {
+      "name": "Fatemeh Azizmalayeri",
+      "field": "Former MSc (2016-2018), now Computer Lab Administrator at BASU",
+      "linkedin": "https://www.linkedin.com/in/fatemeh-azizmalayeri-039ab042/",
+      "github": "",
+      "google_scholar": "",
+      "homepage": ""
+    },
+    {
       "name": "Fazeleh Tavassolian",
-      "field": "Former MSc (2016-2018), now PhD at Bu-Ali Sina University",
+      "field": "Former MSc (2016-2018), now PhD at BASU",
       "linkedin": "https://www.linkedin.com/in/fazeleh-tavassolian-01467510b/",
       "github": "",
       "google_scholar": "https://scholar.google.com/citations?user=c7ZyCYkAAAAJ&hl=en",
+      "homepage": ""
+    },
+    {
+      "name": "Amir Salarpour",
+      "field": "Former PhD (2012-2018), now Visiting Researcher at Clemson University",
+      "linkedin": "https://www.linkedin.com/in/asalarpour/",
+      "github": "",
+      "google_scholar": "https://scholar.google.com/citations?user=PPyF4hEAAAAJ&hl=en&authuser=1",
+      "homepage": ""
+    },
+    {
+      "name": "Mahlagha Afrasiabi",
+      "field": "Former PhD (2013-2017), now Assistant Professor at HUT",
+      "linkedin": "https://www.linkedin.com/in/mahlagha-afrasiabi-536a9710b/",
+      "github": "",
+      "google_scholar": "https://scholar.google.com/citations?user=gl52V8cAAAAJ&hl=en&authuser=1",
       "homepage": ""
     }
   ]
