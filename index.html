@@ -11,26 +11,30 @@
   <script src="./script/MScStudents.js"></script>
   <script src="./script/alumni.js"></script>
   <script src="./script/publications.js"></script>
+  <body> 
   <body>
     <div class="main">
       <div class="riv">
-        <section class="first_view">
+        <header class="header">
+          <img src="./image/riv-pic.png" class="logo"/>
+          <ul class="header_list">
+            <li class="header_list_item"><a class="link_header" href="#home">Home</a></li>
+            <li class="header_list_item"><a class="link_header" href="#about">About</a></li>
+            <li class="header_list_item"><a class="link_header" href="#team">Team</a></li>
+            <li class="header_list_item"><a class="link_header" href="#joinus">Join</a></li>
+            <li class="header_list_item">
+              <a class="link_header" href="#publications">Publications</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </header>
+        <section id="home" class="first_view">
           <div class="containe">
-            <header class="header">
-              <h2 class="title">RIV</h2>
-              <ul class="nav_list">
-                <li class="nav_list_item">Home</li>
-                <li class="nav_list_item">About</li>
-                <li class="nav_list_item">Team</li>
-                <li class="nav_list_item">Research</li>
-                <li class="nav_list_item">Publication</li>
-              </ul>
-              <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </div>
-            </header>
+           
             <div class="poster">
               <div class="part_poster">
                 <div class="subject">
@@ -47,7 +51,7 @@
             </div>
           </div>
         </section>
-        <section class="second_view">
+        <section id="about" class="second_view">
           <div class="containe">
             <h3 class="h_aboutus">About Us</h3>
             <div class="box_text_aboutus">
@@ -74,7 +78,7 @@
         <div class="containe">
           <hr />
         </div>
-        <section class="third_view">
+        <section id="team" class="third_view">
           <div class="containe">
             <p class="h_aboutus">Faculty</p>
             <div class="wrap_box_team">
@@ -87,20 +91,21 @@
               <div id="PHDStudents_box_team" class="box_team"></div>
             </div>
           </div>
-
+   
           <div class="containe">
             <p class="h_aboutus">MSc Students</p>
             <div class="wrap_box_team">
               <div id="MSCStudents_box_team" class="box_team"></div>
             </div>
-          </div>
-          <div class="containe">
+          </div>  
+          
+          <div  class="containe">
             <p class="h_aboutus">BSc Students</p>
             <div class="wrap_box_team">
               <div id="ourteam_box_team" class="box_team"></div>
             </div>
           </div>
-
+          
           <div class="containe">
             <p class="h_aboutus">Alumni</p>
             <div class="wrap_box_team">
@@ -108,10 +113,55 @@
             </div>
           </div>
         </section>
-        <div class="containe">
-          <hr />
-        </div>
-        <section class="fifth_view">
+        <section id="joinus" class="join_view">
+          <div class="box_join">
+            <h3 class="title_join">How to Join Us</h3>
+            <div class="content_join">
+              <div class="left_join">
+                <p class="text_explan_join">
+                  Thank you for your interest in joining our lab. We continually
+                  offer opportunities for BSc, MSc, and PhD theses aligned with
+                  our ongoing research. If you wish to join us, please follow
+                  these steps:
+                </p>
+                <p class="text_head_join">For PhD/MSc Students:</p>
+                <p class="text_explan_join">
+                  1. Enroll in Bu-Ali Sina University and take at least one
+                  course with Dr. Khotanlou.<br />
+                  2. Contact Dr. Khotanlou directly to express your interest in
+                  joining the lab.
+                </p>
+                <p class="text_head_join">For BSc Students:</p>
+                <p class="text_explan_join">
+                  1. Enroll in Bu-Ali Sina University.<br />
+                  2. Send your CV and academic transcript, highlighting your
+                  professional and academic achievements, to the following email
+                  address: riv@basu.ac.ir
+                </p>
+                <div class="box_text_explan_join">
+                  <p class="text_head_join">All Applicants Should Have:</p>
+                  <ul class="list_text_explan_join">
+                    <li>A strong interest in our research areas</li>
+                    <li>
+                      Proficient programming skills, particularly in Python
+                    </li>
+                    <li>
+                      Knowledge or experience in machine learning and deep
+                      learning
+                    </li>
+                  </ul>
+                  <p class="last_box_text_explan_join">
+                    We look forward to welcoming passionate and skilled
+                    individuals to our team.
+                  </p>
+                </div>
+              </div>
+              <div class="right_join"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="publications" class="fifth_view">
           <div class="containe">
             <h3 class="h_aboutus">Publication</h3>
             <div class="wrap_box_team">
@@ -145,4 +195,50 @@
       </footer>
     </div>
   </body>
+  <script>
+    document.addEventListener("scroll", () => {
+  const header = document.querySelector("header");
+  if (window.scrollY >0) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var sectionLinks = document.querySelectorAll('.link_header');
+    var sections = document.querySelectorAll('section');
+
+    function setActiveLink() {
+        sections.forEach(function(section) {
+            var bounding = section.getBoundingClientRect();
+            if (bounding.top <= 100 && bounding.bottom >= 100) {
+                var sectionId = section.getAttribute('id');
+                sectionLinks.forEach(function(link) {
+                  console.log(link.getAttribute('href') ,'#' + sectionId);
+                    if (link.getAttribute('href') === '#' + sectionId) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }
+        });
+    }
+
+    setActiveLink(); // Set active link on page load
+
+    window.addEventListener('scroll', function() {
+        setActiveLink(); // Update active link while scrolling
+    });
+});
+const hamburger = document.querySelector(".hamburger");
+const headerList = document.querySelector(".header_list");
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  headerList.classList.toggle("active");
+});
+
+  </script>
 </html>
