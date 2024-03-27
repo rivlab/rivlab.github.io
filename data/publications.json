@@ -13,6 +13,20 @@
       "code": "",
       "website": "",
       "youtube": ""
+    },
+    {
+      "title": "CDAN: Convolutional Dense Attention-guided Network for Low-light Image Enhancement ",
+      "abstract": "An autoencoder-based model for enhancing low-light images across challenging lighting conditions.",
+      "journal": "arXiv",
+      "year": "2023",
+      "author": "H. Shakibania | S. Raoufi | H. Khotanlou",
+      "image": "./image/publications/CDAN.gif",
+      "url": "https://arxiv.org/abs/2308.12902",
+      "bibtex": "",
+      "pdf": "https://arxiv.org/abs/2308.12902",
+      "code": "https://github.com/SinaRaoufi/CDAN",
+      "website": "",
+      "youtube": ""
     }
   ]
 }
