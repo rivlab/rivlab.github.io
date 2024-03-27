@@ -41,18 +41,34 @@ document.addEventListener("DOMContentLoaded", function () {
               <img src="./image/quote.png" class="icon" />
               <p class="paragraph_icon_research">BibTeX</p>
             </div>
-            <div class="icon_text_research">
-              <img src="./image/box.png" class="icon" />
-              <p class="paragraph_icon_research">arXiv</p>
-            </div>
-            <div class="icon_text_research">
-              <img src="./image/code.png" class="icon" />
-              <p class="paragraph_icon_research">Code</p>
-            </div>
-            <div class="icon_text_research">
-              <img src="./image/world.png" class="icon" />
-              <p class="paragraph_icon_research">Website</p>
-            </div>
+            ${val.url ?
+            `<a href="${val.url}" target="_blank">
+              <div class="icon_text_research">
+                <img src="./image/box.png" class="icon" />
+                <p class="paragraph_icon_research">View Journal</p>
+              </div>
+            </a>` : ''}
+            ${val.code ?
+            `<a href="${val.code}" target="_blank">
+                <div class="icon_text_research">
+                  <img src="./image/code.png" class="icon" />
+                  <p class="paragraph_icon_research">Code</p>
+                </div>
+              </a>` : ''}
+            ${val.website ?
+            `<a href="${val.website}" target="_blank">
+                <div class="icon_text_research">
+                  <img src="./image/world.png" class="icon" />
+                  <p class="paragraph_icon_research">Website</p>
+                </div>
+            </a>` : ''}
+            ${val.youtube ?
+              `<a href="${val.youtube}" target="_blank">
+                  <div class="icon_text_research">
+                    <img src="./image/youtube.png" class="icon" />
+                    <p class="paragraph_icon_research">Youtube</p>
+                  </div>
+              </a>` : ''}
           </div>
         </div>
       </div> 
