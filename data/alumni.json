@@ -1,14 +1,6 @@
 {
   "alumni": [
     {
-      "name": "Morteza Jaderyan",
-      "field": "Former PhD (2013-2020), now Assistant Professor at SCU",
-      "linkedin": "https://www.linkedin.com/in/morteza-jaderyan/",
-      "github": "",
-      "google_scholar": "https://scholar.google.com/citations?user=6yzMzlEAAAAJ&hl",
-      "homepage": ""
-    },
-    {
       "name": "Behnam Pourafkham",
       "field": "Former BSc (2019-2024)",
       "linkedin": "https://www.linkedin.com/in/behnampourafkham/",
@@ -78,6 +70,14 @@
       "linkedin": "https://www.linkedin.com/in/elhamazizi9/",
       "github": "",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=FvmAy9EAAAAJ",
+      "homepage": ""
+    },
+    {
+      "name": "Morteza Jaderyan",
+      "field": "Former PhD (2013-2020), now Assistant Professor at SCU",
+      "linkedin": "https://www.linkedin.com/in/morteza-jaderyan/",
+      "github": "",
+      "google_scholar": "https://scholar.google.com/citations?user=6yzMzlEAAAAJ&hl",
       "homepage": ""
     },
     {
