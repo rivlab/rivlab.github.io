@@ -7,16 +7,40 @@ document.addEventListener("DOMContentLoaded", function () {
       result = "";
       alumni.map(
         (val) =>
-        (result += `
+          (result += `
         <div class="card1">
-              <div class="text_team">
+              <div class="text_team1">
                 <p class="name_text_team">${val.name}</p>
                 <p class="status_text_team">${val.field}</p>
-                <div class="icons_team">
-                  ${val.linkedin ? `<a href="${val.linkedin}" target="_blank"><img src="./image/linkdin.png" class="icons_team_img" /></a>` : ''}
-                  ${val.github ? `<a href="${val.github}" target="_blank"><img src="./image/git.png" class="icons_team_img" /></a>` : ''}
-                  ${val.google_scholar ? `<a href="${val.google_scholar}" target="_blank"><img src="./image/google.png" class="icons_team_img" /></a>` : ''}
-                  ${val.homepage ? `<a href="${val.homepage}" target="_blank"><img src="./image/world.png" class="icons_team_img" /></a>` : ''}
+                <div class="icons_team1">
+                  ${
+                    val.linkedin
+                      ? `<a href="${val.linkedin}" class="tooltip" target="_blank"><img src="./image/linkdin.png" class="icons_team_img" />
+                      <span class="tooltiptext">${val.name} 's Linkdin</span>
+                      </a>`
+                      : ""
+                  }
+                  ${
+                    val.github
+                      ? `<a href="${val.github}" class="tooltip" target="_blank"><img src="./image/git.png" class="icons_team_img" />
+                      <span class="tooltiptext">${val.name} 's Github</span>
+                      </a>`
+                      : ""
+                  }
+                  ${
+                    val.google_scholar
+                      ? `<a href="${val.google_scholar}" class="tooltip" target="_blank"><img src="./image/google.png" class="icons_team_img" />
+                      <span class="tooltiptext">${val.name} 's Google Scholar</span>
+                      </a>`
+                      : ""
+                  }
+                  ${
+                    val.homepage
+                      ? `<a href="${val.homepage}" class="tooltip" target="_blank"><img src="./image/website.png" class="icons_team_img" />
+                      <span class="tooltiptext">${val.name} 's Website</span>
+                      </a>`
+                      : ""
+                  }
                 </div> 
               </div>
             </div> 

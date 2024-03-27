@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <p class="paragraph_icon_research">Code</p>
             </div>
             <div class="icon_text_research">
-              <img src="./image/world.png" class="icon" />
+              <img src="./image/website.png" class="icon" />
               <p class="paragraph_icon_research">Website</p>
             </div>
           </div>
