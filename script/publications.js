@@ -19,11 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
         <div class="left_research_box">
           <span>
+          <a href="${val.url}" target="_blank">
             <div class="title_research_box">
               <h4 class="title_research">
               ${val.title}
               </h4>
             </div>
+          </a>
             <div class="contain_text_research_box">
               <p class="contain_text_research">
               ${val.abstract}
@@ -41,11 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
               <img src="./image/quote.png" class="icon" />
               <p class="paragraph_icon_research">BibTeX</p>
             </div>
-            ${val.url ?
-            `<a href="${val.url}" target="_blank">
+            ${val.pdf ?
+            `<a href="${val.pdf}" target="_blank">
               <div class="icon_text_research">
                 <img src="./image/box.png" class="icon" />
-                <p class="paragraph_icon_research">View Journal</p>
+                <p class="paragraph_icon_research">PDF</p>
               </div>
             </a>` : ''}
             ${val.code ?
