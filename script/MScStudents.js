@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("hels")
   fetch("./data/MScStudents.json")
     .then((response) => response.json())
     .then((data) => {

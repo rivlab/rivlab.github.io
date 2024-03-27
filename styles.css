@@ -333,11 +333,13 @@ header.scrolled .logo {
   flex-direction: column;
   box-sizing: border-box;
 }
+.card:hover {
+  background-color: #f7f7f7;
+}
 .card1 {
   padding: 0.5rem 0.7rem;
   width: 23%;
-  margin: 1.5rem 1%;
-  min-width: 13rem;
+  margin: 1.5rem auto;
   border: 1px solid transparent;
   display: flex;
   flex-direction: column;
@@ -366,7 +368,9 @@ header.scrolled .logo {
 .text_team {
   display: flex;
   flex: 1;
+  padding: 0.5rem 0.5rem 3rem 0.5rem;
   flex-direction: column;
+  justify-content: space-around;
 }
 .profile_img_team {
   width: 100%;
@@ -403,7 +407,6 @@ header.scrolled .logo {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
 }
 .box_join {
   padding: 6rem 0 6rem 6rem;
@@ -419,37 +422,50 @@ header.scrolled .logo {
   color: #c46053;
 }
 .list_text_explan_join {
-  margin-top: 1rem;
+  margin-top: 2.5rem;
+  margin-left: 0.5rem;
+  font-family: Inter-Light;
   list-style: inside;
 }
 .box_text_explan_join {
   border: 0.2rem solid #ffffff;
   padding: 0.7rem;
   border-radius: 0.625rem;
+  margin-top: 2rem;
 }
 .last_box_text_explan_join {
+  font-family: Inter-Light;
   margin-top: 2rem;
 }
 .content_join {
   display: flex;
+  flex-wrap: wrap;
 }
 .left_join {
-  flex: 4;
+  flex: 3;
 }
+
 .text_head_join {
   font-size: 1.2rem;
   font-weight: 900;
+  font-family: Inter-SemiBold;
   margin-bottom: 0.5rem;
 }
 .text_explan_join {
-  margin-bottom: 1.5rem;
+  font-family: Inter-Light;
+  line-height: 1.8rem;
+
+  font-size: 1.3rem;
 }
 .right_join {
-  flex: 3;
+  flex: 2;
+  display: flex;
+  align-items: center;
 }
 .image_Join {
-  width: 20rem;
-  height: 15rem;
+  width: 35%;
+  position: absolute;
+  left: 57%;
 }
 /* part four*/
 .fourth_view {
@@ -516,10 +532,8 @@ header.scrolled .logo {
 }
 .card_research {
   width: 90%;
-  flex-wrap: wrap;
   margin: 1.3rem 3%;
   display: flex;
-  min-height: 18rem;
   box-shadow: -15px 15px 45px 10px rgba(188, 188, 188, 0.3);
 }
 @keyframes example {
@@ -582,6 +596,7 @@ header.scrolled .logo {
 .title_research {
   padding-right: 2.7rem;
   font-size: 1.6rem;
+  font-family: Inter-Bold;
 }
 
 .image_research {
@@ -594,6 +609,7 @@ header.scrolled .logo {
 .contain_text_research {
   font-size: 1.1rem;
   padding-right: 2rem;
+  font-family: Inter-Light;
   color: var(--textResearch);
 }
 .icons_research_box {
@@ -612,6 +628,7 @@ header.scrolled .logo {
 }
 .paragraph_icon_research {
   font-size: 0.85rem;
+  font-family: Inter-Bold;
   color: #b6b6b6;
 }
 .icon {
@@ -626,6 +643,7 @@ header.scrolled .logo {
   border-radius: 0.3rem;
   margin: 0.9rem 0;
   font-size: 0.7rem;
+  font-family: Inter-Bold;
   display: inline-block;
 }
 .author {
@@ -692,7 +710,29 @@ header.scrolled .logo {
   padding: 0.5rem 1rem;
   height: 2.3rem;
 }
+@media screen and (max-width: 1300px) {
+  .title_research {
+    font-size: 1.3rem;
+  }
+  .contain_text_research {
+    font-size: 0.9rem;
+  }
+  .card_research {
+    margin: 1.3rem 0;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1112px) {
+  .title_research {
+    font-size: 1.3rem;
+  }
+  .contain_text_research {
+    font-size: 0.9rem;
+  }
+  .card_research {
+    margin: 1.3rem 0;
+    width: 100%;
+  }
   .containe {
     padding: 3rem 3rem;
   }
@@ -701,24 +741,89 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 860px) {
+  .card1 {
+    min-width: 12rem;
+  }
+  .title_research {
+    font-size: 1.1rem;
+  }
+  .author {
+    display: none;
+  }
+  .contain_text_research_box {
+    display: none;
+  }
   .containe {
     padding: 3rem 3rem;
+  }
+  .title_join {
+    margin-bottom: 1rem;
+  }
+  .text_head_join {
+    margin-top: 1rem;
+  }
+
+  .join_view {
+    margin-bottom: 63%;
+  }
+  .right_join {
+    position: relative;
+  }
+  .image_Join {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 1rem;
+  }
+  .content_join {
+    flex-direction: column;
+  }
+  .box_join {
+    width: 95%;
+    padding: 2rem 0.8rem 3rem 3rem;
   }
   .card {
     min-width: 16rem;
   }
-  .image_research {
+  /* .image_research {
     max-height: 11rem;
     min-width: 20rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 677px) {
+  .card1 {
+    min-width: 11rem;
+  }
   .title_research {
-    text-align: center;
+    font-size: 1rem;
     padding: 0;
   }
-
+  .jurnal {
+    font-size: 0.6rem;
+  }
+  .paragraph_icon_research {
+    font-size: 0.5rem;
+  }
+  .title_join {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .text_head_join {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  .text_explan_join {
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+  }
+  .list_text_explan_join {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .last_box_text_explan_join {
+    font-size: 0.9rem;
+  }
   .contain_text_research {
     padding: 0;
     text-align: center;
@@ -806,15 +911,91 @@ header.scrolled .logo {
   .text_research_top_box {
     font-size: 3rem;
   }
-  .research_box {
-    min-width: 15rem;
+}
+
+@media screen and (max-width: 580px) {
+  .icons_team_img {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  .card1 {
+    min-width: 10rem;
+    border: 0.1rem solid #76c4f6;
+  }
+  .name_text_team {
+    font-size: 0.9rem;
+  }
+  .status_text_team {
+    font-size: 0.56rem;
   }
 }
+
 @media screen and (max-width: 468px) {
-  .image_research {
+  .card1 {
+    min-width: 7rem;
+    width: 45%;
+    margin: 1.5rem auto;
+    padding: 0.2rem 0.4rem;
+  }
+  .text_team {
+    display: flex;
+    flex: 1;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    flex-direction: column;
+  }
+  .name_text_team {
+    font-size: 0.75rem;
+  }
+  .status_text_team {
+    font-size: 0.55rem;
+  }
+  .h_aboutus1 {
+    font-size: 1rem;
+  }
+  .title_research {
+    font-size: 0.6rem;
+  }
+  .paragraph_icon_research {
+    display: none;
+  }
+  .card_research {
+    margin: 0.7rem 0;
+    box-shadow: none;
+    box-shadow: -4.01px 4.01px 6.22px 2.67px rgba(188, 188, 188, 0.16);
+  }
+
+  .jurnal {
+    padding: 0.2rem 0.35rem;
+    font-size: 0.38rem;
+    margin: 0.4rem 0;
+    border-radius: 0.15rem;
+  }
+  .left_research_box {
+    padding: 0.3rem;
+  }
+  .title_join {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .text_head_join {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .text_explan_join {
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .list_text_explan_join {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .last_box_text_explan_join {
+    font-size: 0.8rem;
+  }
+  /* .image_research {
     max-height: 11rem;
     min-width: 15rem;
-  }
+  } */
   .box_team {
     width: 100%;
     justify-content: center;
@@ -860,23 +1041,34 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 300px) {
-  .image_research {
-    min-width: 12rem;
+  .text_team {
+    padding: 0 0 0.5rem 0;
   }
+  .icons_team {
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .icons_team_img {
+    margin: 0;
+  }
+  .name_text_team {
+    font-size: 0.55rem;
+    margin-top: 0;
+  }
+  .status_text_team {
+    font-size: 0.43rem;
+  }
+  .box_join {
+    padding: 2rem 0.8rem 3rem 2rem;
+  }
+  /* .image_research {
+    min-width: 12rem;
+  } */
   .arrow {
     display: none;
   }
-  .title_research {
-    font-size: 1.2rem;
-    text-align: center;
-    padding: 0;
-  }
 
-  .contain_text_research {
-    font-size: 0.9rem;
-    padding: 0;
-    text-align: center;
-  }
   .poster_image {
     width: 40%;
     /* width: 15rem; */
@@ -898,83 +1090,3 @@ header.scrolled .logo {
     width: 30%;
   }
 }
-/* part five*/
-/* .fifth_view1 {
-  display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-.box {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  transform-style: preserve-3d;
-  animation: animate 20s linear infinite;
-}
-@keyframes animate {
-  0% {
-    transform: perspective(1000px) rotateY(0deg);
-  }
-  100% {
-    transform: perspective(1000px) rotateY(360deg);
-  }
-}
-
-.box span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform-origin: center;
-  transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
-  -webkit-box-reflect: below 0px
-    linear-gradient(transparent, transparent, #0004);
-}
-
-.box span .img_test {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  object-fit: cover;
-}
-.spin {
-  animation: spin 50s linear infinite;
-}
-.box span .name_text_team {
-  position: absolute;
-  top: -60px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin: 0.5rem 0 0 0;
-  left: 0;
-}
-.box span .status_text_team {
-  position: absolute;
-  top: -35px;
-  left: 0;
-}
-@keyframes spin {
-  0% {
-    transform: perspective(1000px) rotateY(0deg);
-  }
-  100% {
-    transform: perspective(1000px) rotateY(360deg);
-  }
-}
-.icons_team1 {
-  display: flex;
-  margin: 1rem 0 0 0;
-  position: absolute;
-  top: -30px;
-}
-.icons_team_img1 {
-  width: 0.8rem;
-  height: 0.8rem;
-  margin-right: 0.5rem;
-} */

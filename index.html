@@ -11,17 +11,25 @@
   <script src="./script/MScStudents.js"></script>
   <script src="./script/alumni.js"></script>
   <script src="./script/publications.js"></script>
-  <body> 
+
   <body>
     <div class="main">
       <div class="riv">
         <header class="header">
-          <img src="./image/riv-pic.png" class="logo"/>
+          <img src="./image/riv-pic.png" class="logo" />
           <ul class="header_list">
-            <li class="header_list_item"><a class="link_header" href="#home">Home</a></li>
-            <li class="header_list_item"><a class="link_header" href="#about">About</a></li>
-            <li class="header_list_item"><a class="link_header" href="#team">Team</a></li>
-            <li class="header_list_item"><a class="link_header" href="#joinus">Join</a></li>
+            <li class="header_list_item">
+              <a class="link_header" href="#home">Home</a>
+            </li>
+            <li class="header_list_item">
+              <a class="link_header" href="#about">About</a>
+            </li>
+            <li class="header_list_item">
+              <a class="link_header" href="#team">Team</a>
+            </li>
+            <li class="header_list_item">
+              <a class="link_header" href="#joinus">Join</a>
+            </li>
             <li class="header_list_item">
               <a class="link_header" href="#publications">Publications</a>
             </li>
@@ -34,7 +42,6 @@
         </header>
         <section id="home" class="first_view">
           <div class="containe">
-           
             <div class="poster">
               <div class="part_poster">
                 <div class="subject">
@@ -91,21 +98,22 @@
               <div id="PHDStudents_box_team" class="box_team"></div>
             </div>
           </div>
-   
+
           <div class="containe">
+            <div class="circle"></div>
             <p class="h_aboutus1">MSc Students</p>
             <div class="wrap_box_team">
               <div id="MSCStudents_box_team" class="box_team"></div>
             </div>
-          </div>  
-          
-          <div  class="containe">
+          </div>
+
+          <div class="containe">
             <p class="h_aboutus1">BSc Students</p>
             <div class="wrap_box_team">
               <div id="ourteam_box_team" class="box_team"></div>
             </div>
           </div>
-          
+
           <div class="containe">
             <p class="h_aboutus1">Alumni</p>
             <div class="wrap_box_team">
@@ -125,21 +133,47 @@
                   these steps:
                 </p>
                 <p class="text_head_join">For PhD/MSc Students:</p>
-                <p class="text_explan_join">
-                  1. Enroll in Bu-Ali Sina University and take at least one
-                  course with Dr. Khotanlou.<br />
-                  2. Contact Dr. Khotanlou directly to express your interest in
-                  joining the lab.
-                </p>
+                <div style="display: flex">
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    1.
+                  </p>
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    Enroll in Bu-Ali Sina University and take at least one
+                    course with Dr. Khotanlou.<br />
+                  </p>
+                </div>
+
+                <div style="display: flex">
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    2.
+                  </p>
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    Contact Dr. Khotanlou directly to express your interest in
+                    joining the lab.
+                  </p>
+                </div>
                 <p class="text_head_join">For BSc Students:</p>
-                <p class="text_explan_join">
-                  1. Enroll in Bu-Ali Sina University.<br />
-                  2. Send your CV and academic transcript, highlighting your
-                  professional and academic achievements, to the following email
-                  address: riv@basu.ac.ir
-                </p>
+                <div style="display: flex">
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    1.
+                  </p>
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    Enroll in Bu-Ali Sina University.<br />
+                  </p>
+                </div>
+
+                <div style="display: flex">
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    2.
+                  </p>
+                  <p style="padding-left: 0.3rem" class="text_explan_join">
+                    Send your CV and academic transcript, highlighting your
+                    professional and academic achievements, to the following
+                    email address: riv@basu.ac.ir
+                  </p>
+                </div>
                 <div class="box_text_explan_join">
-                  <p class="text_head_join">All Applicants Should Have:</p>
+                  <p class="text_explan_join">All Applicants Should Have:</p>
                   <ul class="list_text_explan_join">
                     <li>A strong interest in our research areas</li>
                     <li>
@@ -157,7 +191,7 @@
                 </div>
               </div>
               <div class="right_join">
-                <img src="./image/join.png" class="image_Join"/>
+                <img src="./image/join.png" class="image_Join" />
               </div>
             </div>
           </div>
@@ -165,7 +199,7 @@
 
         <section id="publications" class="fifth_view">
           <div class="containe">
-            <h3 class="h_aboutus">Publication</h3>
+            <p class="h_aboutus1">Publication</p>
             <div class="wrap_box_team">
               <div id="publications_box_team" class="box_team1"></div>
             </div>
@@ -181,8 +215,8 @@
                 ><img src="image/c.png" class="icon_footer" />
                 <p class="text_footer">
                   Robot Intelligence & Vision Lab. All rights Reserved
-                </p></span
-              >
+                </p>
+              </span>
               <p class="reserved_footer">All rights Reserved</p>
             </div>
           </div>
@@ -199,48 +233,42 @@
   </body>
   <script>
     document.addEventListener("scroll", () => {
-  const header = document.querySelector("header");
-  if (window.scrollY >0) {
-    header.classList.add("scrolled");
-  } else {
-    header.classList.remove("scrolled");
-  }
-});
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    var sectionLinks = document.querySelectorAll('.link_header');
-    var sections = document.querySelectorAll('section');
-
-    function setActiveLink() {
-        sections.forEach(function(section) {
-            var bounding = section.getBoundingClientRect();
-            if (bounding.top <= 100 && bounding.bottom >= 100) {
-                var sectionId = section.getAttribute('id');
-                sectionLinks.forEach(function(link) {
-                  console.log(link.getAttribute('href') ,'#' + sectionId);
-                    if (link.getAttribute('href') === '#' + sectionId) {
-                        link.classList.add('active');
-                    } else {
-                        link.classList.remove('active');
-                    }
-                });
-            }
-        });
-    }
-
-    setActiveLink(); // Set active link on page load
-
-    window.addEventListener('scroll', function() {
-        setActiveLink(); // Update active link while scrolling
+      const header = document.querySelector("header");
+      if (window.scrollY > 0) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
     });
-});
-const hamburger = document.querySelector(".hamburger");
-const headerList = document.querySelector(".header_list");
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  headerList.classList.toggle("active");
-});
+    document.addEventListener("DOMContentLoaded", function () {
+      var sectionLinks = document.querySelectorAll(".link_header");
+      var sections = document.querySelectorAll("section");
 
+      function setActiveLink() {
+        sections.forEach(function (section) {
+          var bounding = section.getBoundingClientRect();
+          if (bounding.top <= 100 && bounding.bottom >= 100) {
+            var sectionId = section.getAttribute("id");
+            sectionLinks.forEach(function (link) {
+              if (link.getAttribute("href") === "#" + sectionId) {
+                link.classList.add("active");
+              } else {
+                link.classList.remove("active");
+              }
+            });
+          }
+        });
+      }
+      setActiveLink(); // Set active link on page load
+      window.addEventListener("scroll", function () {
+        setActiveLink(); // Update active link while scrolling
+      });
+    });
+    const hamburger = document.querySelector(".hamburger");
+    const headerList = document.querySelector(".header_list");
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      headerList.classList.toggle("active");
+    });
   </script>
 </html>
