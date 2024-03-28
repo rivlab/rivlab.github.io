@@ -664,7 +664,7 @@ header.scrolled .logo {
 }
 .footer {
   display: flex;
-  min-height: 20rem;
+  min-height: 35rem;
   background-color: #2e2f33;
   align-items: center;
   justify-content: center;
@@ -673,8 +673,8 @@ header.scrolled .logo {
 .contanin_footer {
   display: flex;
   width: 80%;
+  height: 65%;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 }
 .title_footer {
@@ -711,21 +711,49 @@ header.scrolled .logo {
 .left_footer {
   padding-bottom: 1rem;
 }
+.riv_icon_footer {
+  width: 10rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+}
 .right_footer {
   display: flex;
   padding-bottom: 1rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .b_icon_footer {
-  width: 2.3rem;
-  padding: 0.5rem 1rem;
-  height: 2.3rem;
+  width: 3rem;
+  filter: grayscale(100%);
+  height: 3rem;
+}
+.b_icon_footer:hover {
+  filter: grayscale(0);
+}
+.text_footer_box {
+  display: flex;
+  color: #7d7d7d;
+  margin-bottom: 2.5rem;
+}
+.head_text_footer {
+  font-family: Inter-SemiBold;
+  font-size: 2.1vmin;
+  width: 8rem;
 }
 .tooltip {
   position: relative;
   display: inline-block;
 }
-
+.icons_footer_box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.abouttext_footer {
+  font-family: Inter-Regular;
+  font-size: 1.3vmin;
+  width: 17rem;
+}
 .tooltip .tooltiptext {
   visibility: hidden;
   width: auto;
@@ -769,6 +797,16 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 1112px) {
+  .head_text_footer {
+    font-size: 3vmin;
+  }
+  .icon_box_footer {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .abouttext_footer {
+    font-size: 2vmin;
+  }
   .title_research {
     font-size: 1.3rem;
   }
@@ -786,7 +824,16 @@ header.scrolled .logo {
     font-size: 3.5rem;
   }
 }
-
+@media screen and (max-width: 927px) {
+  .left_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contanin_footer {
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 860px) {
   .title_research {
     font-size: 1.1rem;
@@ -917,6 +964,10 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 677px) {
+  .b_icon_footer {
+    width: 2rem;
+    height: 2rem;
+  }
   .t_aboutus {
     font-size: 2.2vmin;
     line-height: 1.2rem;
@@ -978,6 +1029,22 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 468px) {
+  .icons_footer_box {
+    margin-top: 1.5rem;
+  }
+  .riv_icon_footer {
+    width: 8rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+  }
+  .head_text_footer {
+    font-size: 3.7vmin;
+    width: 6rem;
+  }
+  .abouttext_footer {
+    font-size: 2.6vmin;
+    width: 100%;
+  }
   .h_aboutus {
     font-size: 1rem;
   }
@@ -1099,6 +1166,13 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 300px) {
+  .head_text_footer {
+    font-size: 4.5vmin;
+    width: 5.5rem;
+  }
+  .abouttext_footer {
+    font-size: 3.5vmin;
+  }
   .t_aboutus {
     font-size: 0.65rem;
     line-height: 0.9rem;
