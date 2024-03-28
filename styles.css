@@ -270,10 +270,10 @@ header.scrolled .logo {
 .btn_learn {
   background-color: var(--btnLearnMore);
   border: none;
+  font-family: Inter-Bold;
   color: #ffffff;
-  font-size: 1.35rem;
-  font-weight: bold;
-  padding: 0.65rem 1.75rem;
+  font-size: 2.5vmin;
+  padding: 1.5% 4%;
   border-radius: 3.064rem;
 }
 /* part one*/
@@ -284,7 +284,7 @@ header.scrolled .logo {
   width: 100%;
 }
 .h_aboutus {
-  font-size: 2.1rem;
+  font-size: 3.7vmin;
   margin: 0 0 1rem 0;
   font-family: Inter-Medium;
 }
@@ -301,7 +301,7 @@ header.scrolled .logo {
 }
 .t_aboutus {
   font-family: Inter-Light;
-  font-size: 1.4rem;
+  font-size: 2.6vmin;
   line-height: 1.8rem;
   margin-top: 2rem;
   width: 87%;
@@ -326,9 +326,8 @@ header.scrolled .logo {
   flex-wrap: wrap;
 }
 .card {
-  width: 23%;
-  margin: 1.5rem 1%;
-  min-width: 13rem;
+  width: 20%;
+  margin: 1.5rem 2.5%;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -337,9 +336,9 @@ header.scrolled .logo {
   background-color: #f7f7f7;
 }
 .card1 {
-  padding: 0.5rem 0.7rem;
   width: 23%;
-  margin: 1.5rem auto;
+  padding: 0 0.4rem 0.5rem 0.4rem;
+  margin: 1.5rem 1%;
   border: 1px solid transparent;
   display: flex;
   flex-direction: column;
@@ -349,9 +348,8 @@ header.scrolled .logo {
   border: 0.1rem solid #76c4f6;
 }
 .image_box {
-  flex: 5;
-  min-height: 14.25rem;
   overflow: hidden;
+  aspect-ratio: 1 / 1;
 }
 .empty_image_box1 {
   height: 100%;
@@ -372,17 +370,23 @@ header.scrolled .logo {
   flex-direction: column;
   justify-content: space-around;
 }
+.text_team1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .profile_img_team {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 1/1;
 }
 .name_text_team {
-  font-size: 1.1rem;
+  font-size: 2.3vmin;
   font-family: Inter-Bold;
   margin: 0.5rem 0 0 0;
 }
 .status_text_team {
-  font-size: 0.75rem;
+  font-size: 1.7vmin;
   font-family: Inter-Light;
   color: var(--gray);
   margin: 0.2rem 0;
@@ -396,13 +400,20 @@ header.scrolled .logo {
   display: flex;
   margin: 1rem 0 0 0;
 }
+.icons_team1 {
+  display: flex;
+  margin: 0.3rem 0 0 0;
+}
 .icons_team_img {
-  width: 1.1rem;
-  height: 1.1rem;
+  width: 1.4rem;
+  height: 1.4rem;
   margin-right: 0.5rem;
+  filter: grayscale(100%);
 }
 /* part three*/
-
+.icons_team_img:hover {
+  filter: grayscale(0);
+}
 .join_view {
   display: flex;
   flex-direction: column;
@@ -710,6 +721,40 @@ header.scrolled .logo {
   padding: 0.5rem 1rem;
   height: 2.3rem;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  font-size: 1.4vmin;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  right: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 @media screen and (max-width: 1300px) {
   .title_research {
     font-size: 1.3rem;
@@ -722,6 +767,7 @@ header.scrolled .logo {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 1112px) {
   .title_research {
     font-size: 1.3rem;
@@ -740,10 +786,8 @@ header.scrolled .logo {
     font-size: 3.5rem;
   }
 }
+
 @media screen and (max-width: 860px) {
-  .card1 {
-    min-width: 12rem;
-  }
   .title_research {
     font-size: 1.1rem;
   }
@@ -782,54 +826,13 @@ header.scrolled .logo {
     width: 95%;
     padding: 2rem 0.8rem 3rem 3rem;
   }
-  .card {
-    min-width: 16rem;
-  }
-  /* .image_research {
-    max-height: 11rem;
-    min-width: 20rem;
-  } */
 }
 
-@media screen and (max-width: 677px) {
-  .card1 {
-    min-width: 11rem;
-  }
-  .title_research {
-    font-size: 1rem;
-    padding: 0;
-  }
-  .jurnal {
-    font-size: 0.6rem;
-  }
-  .paragraph_icon_research {
-    font-size: 0.5rem;
-  }
-  .title_join {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-  }
-  .text_head_join {
-    font-size: 1.1rem;
-    margin-top: 1rem;
-  }
-  .text_explan_join {
-    line-height: 1.2rem;
-    font-size: 0.9rem;
-  }
-  .list_text_explan_join {
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-  }
-  .last_box_text_explan_join {
-    font-size: 0.9rem;
-  }
-  .contain_text_research {
-    padding: 0;
-    text-align: center;
-  }
-}
 @media screen and (max-width: 750px) {
+  .card1 {
+    width: 30%;
+    margin: 0.7rem 1.6%;
+  }
   .part_poster1 {
     position: absolute;
     top: 8rem;
@@ -913,14 +916,58 @@ header.scrolled .logo {
   }
 }
 
+@media screen and (max-width: 677px) {
+  .t_aboutus {
+    font-size: 2.2vmin;
+    line-height: 1.2rem;
+    margin-top: 0;
+  }
+  .card {
+    width: 31%;
+    margin: 0.7rem 1.16%;
+  }
+  .card1 {
+    width: 31%;
+    margin: 0.7rem 1.16%;
+  }
+  .title_research {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .jurnal {
+    font-size: 0.6rem;
+  }
+  .paragraph_icon_research {
+    font-size: 0.5rem;
+  }
+  .title_join {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .text_head_join {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  .text_explan_join {
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+  }
+  .list_text_explan_join {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .last_box_text_explan_join {
+    font-size: 0.9rem;
+  }
+  .contain_text_research {
+    padding: 0;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 580px) {
   .icons_team_img {
     width: 0.7rem;
     height: 0.7rem;
-  }
-  .card1 {
-    min-width: 10rem;
-    border: 0.1rem solid #76c4f6;
   }
   .name_text_team {
     font-size: 0.9rem;
@@ -931,11 +978,27 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 468px) {
+  .h_aboutus {
+    font-size: 1rem;
+  }
+  .t_aboutus {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
   .card1 {
-    min-width: 7rem;
     width: 45%;
-    margin: 1.5rem auto;
-    padding: 0.2rem 0.4rem;
+    border: 0.1rem solid #76c4f6;
+    margin: 1.5rem 2.5%;
+    padding: 0 0.4rem;
+  }
+  .icons_team1 {
+    display: flex;
+    margin: 0.4rem 0 0 0;
+  }
+  .icons_team1 {
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: space-around;
   }
   .text_team {
     display: flex;
@@ -998,7 +1061,6 @@ header.scrolled .logo {
   } */
   .box_team {
     width: 100%;
-    justify-content: center;
   }
   .research_box {
     min-width: 12rem;
@@ -1015,14 +1077,10 @@ header.scrolled .logo {
     margin: 0 0.5rem;
   }
   .btn_learn {
-    font-size: 0.8rem;
-    padding: 1rem 1.3rem;
-  }
-  .t_aboutus {
-    text-align: center;
+    font-size: 3vmin;
   }
   .containe {
-    padding: 3rem 1rem;
+    padding: 0.7rem 1rem;
     flex: 1;
   }
   .subject h1 {
@@ -1030,7 +1088,7 @@ header.scrolled .logo {
     max-width: 11rem;
   }
   .poster_image {
-    width: 48%;
+    width: 43%;
     /* width: 15rem; */
   }
   .part_poster1 {
@@ -1041,6 +1099,10 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 300px) {
+  .t_aboutus {
+    font-size: 0.65rem;
+    line-height: 0.9rem;
+  }
   .text_team {
     padding: 0 0 0.5rem 0;
   }
