@@ -8,9 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
       MscStudents.map((val, index) => {
         const img =
           val.image == ""
-            ? `<div class=${
-                index % 2 == 0 ? "empty_image_box1" : "empty_image_box2"
-              }></div>`
+            ? `<div class=${index % 2 == 0 ? "empty_image_box1" : "empty_image_box2"
+            }></div>`
             : ` <img src=${val.image} class="profile_img_team" />`;
 
         MscStudentsResult += `<div class="card">
@@ -21,30 +20,26 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p class="name_text_team">${val.name}</p>
                 <p class="status_text_team">${val.field}</p>
                 <div class="icons_team">
-                  ${
-                    val.linkedin
-                      ? `<a href="${val.linkedin}" class="tooltip" target="_blank"><img src="./image/linkdin.png" class="icons_team_img" />
-                      <span class="tooltiptext">${val.name} 's Linkdin</span></a>`
-                      : ""
-                  }
-                  ${
-                    val.github
-                      ? `<a href="${val.github}" class="tooltip" target="_blank"><img src="./image/git.png" class="icons_team_img" />
-                      <span class="tooltiptext">${val.name} 's Github</span></a>`
-                      : ""
-                  }
-                  ${
-                    val.google_scholar
-                      ? `<a href="${val.google_scholar}" class="tooltip" target="_blank"><img src="./image/google.png" class="icons_team_img" />
+                  ${val.linkedin
+            ? `<a href="${val.linkedin}" class="tooltip" target="_blank"><img src="./image/linkedin.png" class="icons_team_img" />
+                      <span class="tooltiptext">${val.name} 's LinkedIn</span></a>`
+            : ""
+          }
+                  ${val.github
+            ? `<a href="${val.github}" class="tooltip" target="_blank"><img src="./image/git.png" class="icons_team_img" />
+                      <span class="tooltiptext">${val.name} 's GitHub</span></a>`
+            : ""
+          }
+                  ${val.google_scholar
+            ? `<a href="${val.google_scholar}" class="tooltip" target="_blank"><img src="./image/google.png" class="icons_team_img" />
                       <span class="tooltiptext">${val.name} 's Google Scholar</span></a>`
-                      : ""
-                  }
-                  ${
-                    val.homepage
-                      ? `<a href="${val.homepage}" class="tooltip" target="_blank"><img src="./image/website.png" class="icons_team_img" />
+            : ""
+          }
+                  ${val.homepage
+            ? `<a href="${val.homepage}" class="tooltip" target="_blank"><img src="./image/website.png" class="icons_team_img" />
                       <span class="tooltiptext">${val.name} 's Website</span></a>`
-                      : ""
-                  }
+            : ""
+          }
                 </div>              
               </div>
             </div>  

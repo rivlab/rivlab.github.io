@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="icons_team">
                   ${
                     val.linkedin
-                      ? `<a href="${val.linkedin}" class="tooltip" target="_blank"><img src="./image/linkdin.png" class="icons_team_img" />
-                      <span class="tooltiptext">${val.name} 's Linkdin</span></a>`
+                      ? `<a href="${val.linkedin}" class="tooltip" target="_blank"><img src="./image/linkedin.png" class="icons_team_img" />
+                      <span class="tooltiptext">${val.name} 's LinkedIn</span></a>`
                       : ""
                   }
                   ${
                     val.github
                       ? `<a href="${val.github}" class="tooltip" target="_blank">
-                      <span class="tooltiptext">${val.name} 's Github</span><img src="./image/git.png" class="icons_team_img" /></a>`
+                      <span class="tooltiptext">${val.name} 's GitHub</span><img src="./image/git.png" class="icons_team_img" /></a>`
                       : ""
                   }
                   ${
