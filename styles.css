@@ -270,10 +270,10 @@ header.scrolled .logo {
 .btn_learn {
   background-color: var(--btnLearnMore);
   border: none;
+  font-family: Inter-Bold;
   color: #ffffff;
-  font-size: 1.35rem;
-  font-weight: bold;
-  padding: 0.65rem 1.75rem;
+  font-size: 2.5vmin;
+  padding: 1.5% 4%;
   border-radius: 3.064rem;
 }
 /* part one*/
@@ -284,7 +284,7 @@ header.scrolled .logo {
   width: 100%;
 }
 .h_aboutus {
-  font-size: 2.1rem;
+  font-size: 3.7vmin;
   margin: 0 0 1rem 0;
   font-family: Inter-Medium;
 }
@@ -301,7 +301,7 @@ header.scrolled .logo {
 }
 .t_aboutus {
   font-family: Inter-Light;
-  font-size: 1.4rem;
+  font-size: 2.6vmin;
   line-height: 1.8rem;
   margin-top: 2rem;
   width: 87%;
@@ -917,6 +917,11 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 677px) {
+  .t_aboutus {
+    font-size: 2.2vmin;
+    line-height: 1.2rem;
+    margin-top: 0;
+  }
   .card {
     width: 31%;
     margin: 0.7rem 1.16%;
@@ -973,6 +978,13 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 468px) {
+  .h_aboutus {
+    font-size: 1rem;
+  }
+  .t_aboutus {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
   .card1 {
     width: 45%;
     border: 0.1rem solid #76c4f6;
@@ -1065,14 +1077,10 @@ header.scrolled .logo {
     margin: 0 0.5rem;
   }
   .btn_learn {
-    font-size: 0.8rem;
-    padding: 1rem 1.3rem;
-  }
-  .t_aboutus {
-    text-align: center;
+    font-size: 3vmin;
   }
   .containe {
-    padding: 3rem 1rem;
+    padding: 0.7rem 1rem;
     flex: 1;
   }
   .subject h1 {
@@ -1080,7 +1088,7 @@ header.scrolled .logo {
     max-width: 11rem;
   }
   .poster_image {
-    width: 48%;
+    width: 43%;
     /* width: 15rem; */
   }
   .part_poster1 {
@@ -1091,6 +1099,10 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 300px) {
+  .t_aboutus {
+    font-size: 0.65rem;
+    line-height: 0.9rem;
+  }
   .text_team {
     padding: 0 0 0.5rem 0;
   }
