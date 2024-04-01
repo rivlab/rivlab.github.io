@@ -3,16 +3,23 @@
   <head>
     <link rel="stylesheet" href="styles.css" />
     <title>RIV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./image/riv-pic.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <script src="./script/BScStudents.js"></script>
-  <script src="./script/faculty.js"></script>
-  <script src="./script/PhDStudents.js"></script>
-  <script src="./script/MScStudents.js"></script>
-  <script src="./script/alumni.js"></script>
-  <script src="./script/publications.js"></script>
-
+  <script src="./script/BScStudents.min.js"></script>
+  <script src="./script/faculty.min.js"></script>
+  <script src="./script/MScStudents.min.js"></script>
+  <script src="./script/alumni.min.js"></script>
+  <script src="./script/publications.min.js"></script>
+  <script src="./lazysizes.min.js" async=""></script>
+  <script src="./webscript.min.js"></script>
+  <script src="./script/PhDStudents.min.js"></script>
   <body>
     <div class="main">
       <div class="riv">
@@ -54,7 +61,11 @@
                 </div>
               </div>
               <div class="part_poster1">
-                <img src="./image/RobotIntelligence.png" class="poster_image" />
+                <img
+                  width="100%"
+                  src="./image/RobotIntelligence.png"
+                  class="poster_image"
+                />
               </div>
             </div>
           </div>
@@ -88,13 +99,13 @@
         </div>
         <section id="team" class="third_view">
           <div class="containe">
-            <p class="h_aboutus1">Faculty</p>
+            <h3 class="h_aboutus1">Faculty</h3>
             <div class="wrap_box_team">
               <div id="faculty_box_team" class="box_team"></div>
             </div>
           </div>
           <div class="containe">
-            <p class="h_aboutus1">PhD Students</p>
+            <h3 class="h_aboutus1">PhD Students</h3>
             <div class="wrap_box_team">
               <div id="PHDStudents_box_team" class="box_team"></div>
             </div>
@@ -102,21 +113,21 @@
 
           <div class="containe">
             <div class="circle"></div>
-            <p class="h_aboutus1">MSc Students</p>
+            <h3 class="h_aboutus1">MSc Students</h3>
             <div class="wrap_box_team">
               <div id="MSCStudents_box_team" class="box_team"></div>
             </div>
           </div>
 
           <div class="containe">
-            <p class="h_aboutus1">BSc Students</p>
+            <h3 class="h_aboutus1">BSc Students</h3>
             <div class="wrap_box_team">
               <div id="ourteam_box_team" class="box_team"></div>
             </div>
           </div>
 
           <div class="containe">
-            <p class="h_aboutus1">Alumni</p>
+            <h3 class="h_aboutus1">Alumni</h3>
             <div class="wrap_box_team">
               <div id="alumni_box_team" class="box_team"></div>
             </div>
@@ -172,9 +183,9 @@
                     2.
                   </p>
                   <p style="padding-left: 0.3rem" class="text_explan_join">
-                    Send your CV and transcript, highlighting your
-                    professional and academic achievements, to the following
-                    email address: <a href="mailto:riv@basu.ac.ir">riv@basu.ac.ir</a> 
+                    Send your CV and transcript, highlighting your professional
+                    and academic achievements, to the following email address:
+                    <a href="mailto:riv@basu.ac.ir">riv@basu.ac.ir</a>
                   </p>
                 </div>
                 <div class="box_text_explan_join">
@@ -201,10 +212,9 @@
             </div>
           </div>
         </section>
-
         <section id="publications" class="fifth_view">
           <div class="containe">
-            <p class="h_aboutus1">Publications</p>
+            <h3 class="h_aboutus1">Publications</h3>
             <div class="wrap_box_team">
               <div id="publications_box_team" class="box_team1"></div>
             </div>
@@ -252,44 +262,4 @@
       </footer>
     </div>
   </body>
-  <script>
-    document.addEventListener("scroll", () => {
-      const header = document.querySelector("header");
-      if (window.scrollY > 0) {
-        header.classList.add("scrolled");
-      } else {
-        header.classList.remove("scrolled");
-      }
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      var sectionLinks = document.querySelectorAll(".link_header");
-      var sections = document.querySelectorAll("section");
-
-      function setActiveLink() {
-        sections.forEach(function (section) {
-          var bounding = section.getBoundingClientRect();
-          if (bounding.top <= 100 && bounding.bottom >= 100) {
-            var sectionId = section.getAttribute("id");
-            sectionLinks.forEach(function (link) {
-              if (link.getAttribute("href") === "#" + sectionId) {
-                link.classList.add("active");
-              } else {
-                link.classList.remove("active");
-              }
-            });
-          }
-        });
-      }
-      setActiveLink(); // Set active link on page load
-      window.addEventListener("scroll", function () {
-        setActiveLink(); // Update active link while scrolling
-      });
-    });
-    const hamburger = document.querySelector(".hamburger");
-    const headerList = document.querySelector(".header_list");
-    hamburger.addEventListener("click", () => {
-      hamburger.classList.toggle("active");
-      headerList.classList.toggle("active");
-    });
-  </script>
 </html>

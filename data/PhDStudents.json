@@ -3,7 +3,7 @@
     {
       "name": "Elham Alighardash",
       "field": "Visual Question Answering",
-      "image": "./image/profiles/Elham_Alighardash.jpg",
+      "image": "./image/profiles/Elham_Alighardash.webp",
       "linkedin": "",
       "github": "",
       "google_scholar": "https://scholar.google.com/citations?user=RP3j9S8AAAAJ&hl=en",
@@ -12,7 +12,7 @@
     {
       "name": "Reza Yazdi",
       "field": "Computer Vision",
-      "image": "./image/profiles/Reza_Yazdi.jpg",
+      "image": "./image/profiles/Reza_Yazdi.webp",
       "linkedin": "https://www.linkedin.com/in/reza-yazdi/",
       "github": "",
       "google_scholar": "",
@@ -30,7 +30,7 @@
     {
       "name": "Homayoun Rastegar",
       "field": "Machine Vision",
-      "image": "./image/profiles/Homayoun_Rastegar.jpg",
+      "image": "./image/profiles/Homayoun_Rastegar.webp",
       "linkedin": "",
       "github": "",
       "google_scholar": "https://scholar.google.com/citations?user=P7dMnEgAAAAJ&hl=en",
@@ -39,7 +39,7 @@
     {
       "name": "Zahra Aghaei",
       "field": "Machine Learning",
-      "image": "./image/profiles/Zahra_Aghaei.jpg",
+      "image": "./image/profiles/Zahra_Aghaei.webp",
       "linkedin": "",
       "github": "",
       "google_scholar": "",
