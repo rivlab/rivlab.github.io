@@ -420,6 +420,9 @@ header.scrolled .logo {
   flex-direction: column;
   width: 100%;
 }
+.text_explan_join a {
+  color: #6b6bff;
+}
 .box_join {
   padding: 6rem 0 6rem 6rem;
   display: flex;
