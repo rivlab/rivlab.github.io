@@ -164,14 +164,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 3rem 10.6rem;
+  padding: 3rem 9rem;
 }
 header {
   display: flex;
   align-items: center;
   position: sticky;
   justify-content: space-between;
-  padding: 0 10.6rem;
+  padding: 1rem 9rem;
   top: 3rem;
   z-index: 1;
   color: #000;
@@ -182,7 +182,7 @@ header.scrolled {
   transition: top 0.45s ease-in-out, background-color 0.45s ease-in-out;
   left: 0;
   top: 0;
-  opacity: 0.98;
+  opacity: 0.97;
 }
 .hamburger {
   display: none;
@@ -204,9 +204,8 @@ header.scrolled a {
 }
 .logo {
   width: 5%;
-  min-width: 6.5625rem;
-  min-height: 4.8125rem;
-  margin-left: -1rem;
+  min-width: 4.1rem;
+  min-height: 2.1rem;
 }
 header.scrolled .logo {
   width: 5%;
@@ -242,9 +241,9 @@ header.scrolled .logo {
   font-weight: bold;
 }
 .header_list_item {
-  padding: 0 1rem;
+  padding: 0 0.7rem;
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .link_header {
   color: #ffffff;
@@ -290,7 +289,7 @@ header.scrolled .logo {
   font-weight: 500;
 }
 .h_aboutus1 {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   margin: 0 0 1rem 0;
   font-weight: 200;
   color: #797d7f;
@@ -323,7 +322,7 @@ header.scrolled .logo {
 }
 .box_team {
   display: flex;
-  width: 90%;
+  width: 95%;
   flex-wrap: wrap;
 }
 .card {
@@ -424,33 +423,36 @@ header.scrolled .logo {
   color: #6b6bff;
 }
 .box_join {
-  padding: 6rem 0 6rem 6rem;
+  padding: 3rem 0 3rem 5.5rem;
   display: flex;
   width: 85%;
   background-color: #d6eaef;
+  border-radius: 0 1rem 1rem 0;
   flex-direction: column;
 }
 .title_join {
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
-  font-weight: 800;
+  font-size: 1.6rem;
+  margin-bottom: 1.3rem;
+  font-weight: 900;
   color: #c46053;
 }
 .list_text_explan_join {
-  margin-top: 2.5rem;
+  margin-top: 1.6rem;
   margin-left: 0.5rem;
   font-weight: 300;
+  font-size: 0.9rem;
   list-style: inside;
 }
 .box_text_explan_join {
   border: 0.2rem solid #ffffff;
-  padding: 0.7rem;
+  padding: 0.5rem 0.7rem;
   border-radius: 0.625rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .last_box_text_explan_join {
   font-weight: 300;
-  margin-top: 2rem;
+  margin-top: 1.6rem;
+  font-size: 0.9rem;
 }
 .content_join {
   display: flex;
@@ -461,16 +463,14 @@ header.scrolled .logo {
 }
 
 .text_head_join {
-  font-size: 1.2rem;
-  font-weight: 900;
+  font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 .text_explan_join {
   font-weight: 300;
-  line-height: 1.8rem;
-
-  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-size: 0.9rem;
 }
 .right_join {
   flex: 2;
@@ -529,7 +529,7 @@ header.scrolled .logo {
   flex: 10;
 }
 .text_research {
-  width: 90%;
+  width: 95%;
   font-size: 1rem;
   line-height: 1.6rem;
   color: var(--mediumGray);
@@ -546,7 +546,7 @@ header.scrolled .logo {
   display: flex;
 }
 .card_research {
-  width: 90%;
+  width: 95%;
   margin: 1.3rem 3%;
   display: flex;
   box-shadow: -15px 15px 45px 10px rgba(188, 188, 188, 0.3);
@@ -609,8 +609,9 @@ header.scrolled .logo {
 }
 
 .title_research {
-  padding-right: 2.7rem;
-  font-size: 1.6rem;
+  padding-right: 1rem;
+  color: #656565;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -619,11 +620,11 @@ header.scrolled .logo {
   width: 100%;
 }
 .contain_text_research_box {
-  padding: 0.7rem 0;
+  padding: 0.6rem 0;
 }
 .contain_text_research {
-  font-size: 1.1rem;
-  padding-right: 2rem;
+  font-size: 0.95rem;
+  padding-right: 0.8rem;
   font-weight: 300;
   color: var(--textResearch);
 }
@@ -642,7 +643,7 @@ header.scrolled .logo {
   padding-right: 1rem;
 }
 .paragraph_icon_research {
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   font-weight: 700;
   color: #b6b6b6;
 }
@@ -656,15 +657,15 @@ header.scrolled .logo {
   background-color: #d6eaef;
   color: var(--textResearch);
   border-radius: 0.3rem;
-  margin: 0.9rem 0;
-  font-size: 0.7rem;
+  margin: 0.6rem 0;
+  font-size: 0.6rem;
   font-weight: 700;
   display: inline-block;
 }
 .author {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--textResearch);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .footer {
   display: flex;
