@@ -405,8 +405,8 @@ header.scrolled .logo {
   margin: 0.3rem 0 0 0;
 }
 .icons_team_img {
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.2rem;
+  height: 1.2rem;
   margin-right: 0.5rem;
   filter: grayscale(100%);
 }
@@ -616,7 +616,7 @@ header.scrolled .logo {
 }
 
 .image_research {
-  height: 100%;
+  aspect-ratio: 3 / 2;
   width: 100%;
 }
 .contain_text_research_box {
@@ -665,11 +665,10 @@ header.scrolled .logo {
 .author {
   font-size: 0.6rem;
   color: var(--textResearch);
-  margin-bottom: 2rem;
 }
 .footer {
   display: flex;
-  min-height: 35rem;
+  min-height: 20rem;
   background-color: #2e2f33;
   align-items: center;
   justify-content: center;
@@ -717,8 +716,8 @@ header.scrolled .logo {
   padding-bottom: 1rem;
 }
 .riv_icon_footer {
-  width: 10rem;
-  height: 6rem;
+  width: 6rem;
+  height: 3rem;
   margin-bottom: 1rem;
 }
 .right_footer {
@@ -728,9 +727,9 @@ header.scrolled .logo {
   justify-content: space-between;
 }
 .b_icon_footer {
-  width: 3rem;
+  width: 2.5rem;
   filter: grayscale(100%);
-  height: 3rem;
+  height: 2.5rem;
 }
 .b_icon_footer:hover {
   filter: grayscale(0);
@@ -742,8 +741,8 @@ header.scrolled .logo {
 }
 .head_text_footer {
   font-weight: 600;
-  font-size: 2.1vmin;
-  width: 8rem;
+  font-size: 2.2vmin;
+  width: 5rem;
 }
 .tooltip {
   position: relative;
@@ -756,7 +755,7 @@ header.scrolled .logo {
 }
 .abouttext_footer {
   font-weight: 400;
-  font-size: 1.3vmin;
+  font-size: 1.5vmin;
   width: 17rem;
 }
 .tooltip .tooltiptext {
@@ -1098,7 +1097,7 @@ header.scrolled .logo {
   }
   .card1 {
     width: 45%;
-    border: 0.1rem solid #76c4f6;
+    border: 0.1rem solid #e6f1f5;
     margin: 1.5rem 2.5%;
     padding: 0 0.4rem;
   }
