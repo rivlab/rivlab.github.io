@@ -139,10 +139,12 @@ body {
   flex-direction: column;
   scroll-behavior: smooth;
   height: 100%;
+  overflow-x: hidden;
   /* overflow-y: scroll; */
 }
 .riv {
   display: flex;
+  position: relative;
   flex-direction: column;
 }
 .first_view {
@@ -251,7 +253,7 @@ header.scrolled .logo {
 .link_header.active {
   color: #93c8ec;
   text-decoration: none;
-  padding-bottom: 2px; /* Adjust the distance between text and underline */
+  padding-bottom: 2px;
   border-bottom: 0.2rem solid #93c8ec;
 }
 .subject {
@@ -279,6 +281,7 @@ header.scrolled .logo {
 /* part one*/
 /* part two*/
 .second_view {
+  padding: 1.5rem 0;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -311,6 +314,7 @@ header.scrolled .logo {
 /* part three*/
 
 .third_view {
+  padding: 1.5rem 0;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -417,6 +421,7 @@ header.scrolled .logo {
   filter: grayscale(0);
 }
 .join_view {
+  padding: 1.5rem 0;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -545,6 +550,7 @@ header.scrolled .logo {
 
 /* part five*/
 .fifth_view {
+  padding: 1.5rem 0;
   display: flex;
 }
 .card_research {
@@ -851,7 +857,100 @@ header.scrolled .logo {
 .blurred-img.loaded img {
   opacity: 1;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#modal-details {
+  overflow-x: auto;
+}
+.header-text-modal {
+  font-weight: 700;
+}
+.headr-modal {
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 0.1rem solid var(--lightGray);
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.value_modal {
+  line-height: 1.5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.show-modal {
+  display: flex;
+  cursor: pointer;
+}
+.close-modal {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.circle {
+  position: absolute;
+  z-index: -1;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  /* background-color: blue; */
+  background: radial-gradient(
+    circle closest-side at 50% 50%,
+    rgba(251, 237, 235, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.circle1 {
+  position: absolute;
+  z-index: -1;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  /* background-color: red; */
+  background: radial-gradient(
+    circle closest-side at 50% 50%,
+    rgba(232, 250, 254, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
+  .header-text-modal {
+    font-size: 2.1rem;
+  }
+  .value_modal {
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+  }
+  .title_join {
+    font-size: 2.2rem;
+  }
+  .text_explan_join {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  .text_head_join {
+    font-size: 1.6rem;
+  }
+  .list_text_explan_join {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  .last_box_text_explan_join {
+    font-size: 1.5rem;
+  }
   .header_list_item {
     padding: 0 1.2rem;
     font-weight: 900;
@@ -894,6 +993,28 @@ header.scrolled .logo {
   }
 }
 @media screen and (min-width: 1720px) and (max-width: 1920px) {
+  .header-text-modal {
+    font-size: 2rem;
+  }
+  .value_modal {
+    line-height: 2.1rem;
+    font-size: 1.3rem;
+  }
+  .title_join {
+    font-size: 2rem;
+  }
+  .text_explan_join {
+    font-size: 1.3rem;
+  }
+  .text_head_join {
+    font-size: 1.4rem;
+  }
+  .list_text_explan_join {
+    font-size: 1.3rem;
+  }
+  .last_box_text_explan_join {
+    font-size: 1.3rem;
+  }
   .header_list_item {
     padding: 0 1rem;
     font-weight: 900;
@@ -936,6 +1057,28 @@ header.scrolled .logo {
   }
 }
 @media screen and (min-width: 1680px) and (max-width: 1720px) {
+  .header-text-modal {
+    font-size: 1.8rem;
+  }
+  .value_modal {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+  .title_join {
+    font-size: 1.8rem;
+  }
+  .text_explan_join {
+    font-size: 1.1rem;
+  }
+  .text_head_join {
+    font-size: 1.2rem;
+  }
+  .list_text_explan_join {
+    font-size: 1.1rem;
+  }
+  .last_box_text_explan_join {
+    font-size: 1.1rem;
+  }
   .header_list_item {
     padding: 0 0.85rem;
     font-weight: 900;
@@ -1247,6 +1390,13 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 468px) {
+  .header-text-modal {
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  .value_modal {
+    font-size: 0.6rem;
+  }
   .icons_footer_box {
     margin-top: 1.5rem;
   }
