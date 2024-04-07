@@ -1468,14 +1468,10 @@ header.scrolled .logo {
     margin: 1.5rem 2.5%;
     padding: 0 0.4rem;
   }
-  .icons_team1 {
-    display: flex;
-    margin: 0.4rem 0 0 0;
-  }
+
   .icons_team1 {
     margin: 0.5rem 0 0 0;
     display: flex;
-    justify-content: space-around;
   }
   .text_team {
     display: flex;
