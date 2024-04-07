@@ -380,7 +380,7 @@ header.scrolled .logo {
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .profile_img_team {
   width: 100%;
@@ -783,35 +783,7 @@ header.scrolled .logo {
   font-size: 1.5vmin;
   width: 17rem;
 }
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: auto;
-  font-size: 1.4vmin;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  top: -25px;
-  right: 110%;
-}
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent transparent black;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
 .blurred-img {
   background-repeat: no-repeat;
   background-size: cover;
@@ -884,8 +856,10 @@ header.scrolled .logo {
 }
 .modal-content {
   background-color: #fefefe;
+  position: relative;
   margin: 15% auto;
-  padding: 20px;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem 2rem 2rem;
   border: 1px solid #888;
   width: 80%;
 }
@@ -967,7 +941,40 @@ header.scrolled .logo {
     transform: rotate(360deg);
   }
 }
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 999;
+}
 
+/* Position the tooltip below the icon */
+.tooltip.activeCopy {
+  display: block;
+  bottom: 0.35rem;
+  right: 1.5rem;
+  transform: translateX(-50%);
+}
+.icon_copy {
+  width: 1.5rem;
+  height: 1.8rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 0.35rem;
+  cursor: pointer;
+}
+.icons_team a {
+  display: flex;
+}
+.icons_team1 a {
+  display: flex;
+}
+.icon_copy:hover {
+  transform: scale(1.04);
+}
 @media screen and (min-width: 1920px) and (max-width: 2560px) {
   .header-text-modal {
     font-size: 2.1rem;
@@ -1392,6 +1399,10 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 580px) {
+  .icons_team {
+    margin: 0.3rem 0;
+    display: flex;
+  }
   .contanin_footer {
     width: 90%;
   }
@@ -1466,17 +1477,17 @@ header.scrolled .logo {
     width: 45%;
     border: 0.1rem solid #e6f1f5;
     margin: 1.5rem 2.5%;
-    padding: 0 0.4rem;
+    padding: 0.2rem 0.4rem 0 0.4rem;
   }
 
   .icons_team1 {
-    margin: 0.5rem 0 0 0;
+    margin: 0.3rem 0;
     display: flex;
   }
   .text_team {
     display: flex;
     flex: 1;
-    padding: 0.5rem 0.5rem 0.7rem 0.5rem;
+    padding: 0.5rem 0.5rem 0.3rem 0.5rem;
     flex-direction: column;
   }
   .name_text_team {
@@ -1584,15 +1595,11 @@ header.scrolled .logo {
     line-height: 0.9rem;
   }
   .text_team {
-    padding: 0 0 0.5rem 0;
+    padding: 0.5rem 0 0 0;
   }
-  .icons_team {
-    margin: 0.5rem 0 0 0;
-    display: flex;
-    justify-content: space-around;
-  }
+
   .icons_team_img {
-    margin: 0;
+    margin: 0 0.05rem;
   }
   .name_text_team {
     font-size: 0.55rem;
