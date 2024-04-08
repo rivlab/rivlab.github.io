@@ -175,13 +175,12 @@ header {
   justify-content: space-between;
   padding: 1rem 9rem;
   top: 2.83rem;
-  z-index: 1;
+  z-index: 10;
   color: #000;
   transition: top 0.5s ease-in-out, background-color 0.35s ease-out;
 }
 header.scrolled {
   background-color: #ffffff;
-  z-index: 6;
   transition: top 0.45s ease-in-out, background-color 0.45s ease-in-out;
   left: 0;
   top: 0;
