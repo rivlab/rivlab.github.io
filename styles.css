@@ -240,6 +240,7 @@ header.scrolled .logo {
   display: flex;
   color: #ffffff;
   font-size: 1rem;
+  z-index: 10;
   font-weight: bold;
 }
 .header_list_item {
@@ -1292,7 +1293,6 @@ header.scrolled .logo {
     justify-content: space-between;
     padding: 0.5rem 2rem;
     top: 0;
-    z-index: 1;
     color: #000;
     background-color: #ffffff;
     transition: top 0.5s ease-in-out, background-color 0.35s ease-out;
