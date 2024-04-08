@@ -269,6 +269,9 @@ header.scrolled .logo {
   display: flex;
   margin-top: 2.5rem;
 }
+.btn:hover {
+  color: yellow;
+}
 .btn_learn {
   background-color: var(--btnLearnMore);
   border: none;
