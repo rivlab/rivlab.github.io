@@ -1,0 +1,14 @@
+{
+    "data": {
+      "@INPROCEEDINGS": "9116870",
+      "author": "Hasani, Moein and Saravi, Amin Nasim and Khotanlou, Hassan",
+      "booktitle": "2020 International Conference on Machine Vision and Image Processing (MVIP)",
+      "title": "An Efficient Approach for Using Expectation Maximization Algorithm in Capsule Networks",
+      "year": "2020",
+      "volume": "",
+      "number": "",
+      "pages": "1-5",
+      "keywords": "Training;Computer vision;Machine vision;Neural networks;Computer architecture;Routing;Convolutional neural networks;Capsule Networks;Routing-by-Agreement;Convolutional Neural Networks;CNNs",
+      "doi": "10.1109/MVIP49855.2020.9116870"
+    }
+}
