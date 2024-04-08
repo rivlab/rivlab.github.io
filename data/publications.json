@@ -15,7 +15,7 @@
       "youtube": ""
     },
     {
-      "title": "CDAN: Convolutional Dense Attention-guided Network for Low-light Image Enhancement ",
+      "title": "CDAN: Convolutional Dense Attention-guided Network for Low-light Image Enhancement",
       "abstract": "An autoencoder-based model for enhancing low-light images across challenging lighting conditions.",
       "journal": "arXiv",
       "year": "2023",
@@ -25,6 +25,20 @@
       "bibtex": "data/bibTex/CDAN.json",
       "pdf": "https://arxiv.org/abs/2308.12902",
       "code": "https://github.com/SinaRaoufi/CDAN",
+      "website": "",
+      "youtube": ""
+    },
+    {
+      "title": "Kernel Correlation Based CNN for Point Cloud Classification Task",
+      "abstract": "A novel method for processing point cloud data, leveraging adapted kernel correlation techniques to develop a CNN-like approach.",
+      "journal": "8th International Conference on Computer and Knowledge Engineering (ICCKE)",
+      "year": "2018",
+      "author": "F. Azizmalayeri | SMM. Peyghambarzadeh | H. Khotanlou; | A. Salarpour",
+      "image": "./image/publications/kernel.gif",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8566273/",
+      "bibtex": "data/bibTex/kernel.json",
+      "pdf": "",
+      "code": "",
       "website": "",
       "youtube": ""
     }

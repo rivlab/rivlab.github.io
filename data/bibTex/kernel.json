@@ -1,0 +1,14 @@
+{
+    "data": {
+      "@INPROCEEDINGS": "8566273",
+      "author": "Azizmalayeri, Fatemeh and Peyghambarzadeh, S.M. Moein and Khotanlou, Hassan and Salarpour, Amir",
+      "booktitle": "2018 8th International Conference on Computer and Knowledge Engineering (ICCKE)",
+      "title": "Kernel Correlation Based CNN for Point Cloud Classification Task",
+      "year": "2018",
+      "volume": "",
+      "number": "",
+      "pages": "200-204",
+      "keywords": "Three-dimensional displays;Kernel;Feature extraction;Shape;Two dimensional displays;Solid modeling;Convolution;Point Cloud;Deep Learning;Convolutional Neural Network;Kernel Correlation;Irregular Domains",
+      "doi": "10.1109/ICCKE.2018.8566273"
+    }
+  }
