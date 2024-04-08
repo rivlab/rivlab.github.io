@@ -29,6 +29,34 @@
       "youtube": ""
     },
     {
+      "title": "Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis",
+      "abstract": "This paper introduces Point-PlaneNet, a novel convolutional neural network utilizing PointConv to extract local geometric features from raw point clouds without transforming them to images or volumes, showing promising results in various 3D data analysis tasks.",
+      "journal": "Digital Signal Processing",
+      "year": "2020",
+      "author": "SMM. Peyghambarzadeh | F. Azizmalayeri | H. Khotanlou | A. Salarpour",
+      "image": "./image/publications/point.jpg",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1051200419301873",
+      "bibtex": "data/bibTex/point.json",
+      "pdf": "",
+      "code": "https://github.com/moeinp70/Point-Planenet",
+      "website": "",
+      "youtube": ""
+    },
+    {
+      "title": "An Efficient Approach for Using Expectation Maximization Algorithm in Capsule Networks",
+      "abstract": "The paper investigates optimizing Capsule Networks (CapsNets) by adjusting Expectation-Maximization (EM) routing iterations to address their drawbacks, achieving faster training and improved accuracies across multiple datasets.",
+      "journal": "International Conference on Machine Vision and Image Processing (MVIP)",
+      "year": "2020",
+      "author": "M. Hasani | AN. Saravi | H. Khotanlou",
+      "image": "./image/publications/Efficient.gif",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9116870/",
+      "bibtex": "data/bibTex/efficient.json",
+      "pdf": "https://arxiv.org/abs/1912.05333",
+      "code": "",
+      "website": "",
+      "youtube": ""
+    },
+    {
       "title": "Kernel Correlation Based CNN for Point Cloud Classification Task",
       "abstract": "A novel method for processing point cloud data, leveraging adapted kernel correlation techniques to develop a CNN-like approach.",
       "journal": "8th International Conference on Computer and Knowledge Engineering (ICCKE)",

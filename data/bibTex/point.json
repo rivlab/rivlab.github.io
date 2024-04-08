@@ -1,0 +1,16 @@
+{
+    "data": {
+      "@article": "PEYGHAMBARZADEH2020102633",
+      "title": "Point-PlaneNet: Plane kernel based convolutional neural network for point clouds analysis",
+      "journal": "Digital Signal Processing",
+      "volume": "98",
+      "pages": "102633",
+      "year": "2020",
+      "issn": "1051-2004",
+      "doi": "https://doi.org/10.1016/j.dsp.2019.102633",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1051200419301873",
+      "author": "S.M. Moein Peyghambarzadeh and Fatemeh Azizmalayeri and Hassan Khotanlou and Amir Salarpour",
+      "keywords": "Point cloud, Deep learning, Convolution neural network, Spatially-local correlation",
+      "abstract": "Point cloud is accepted as an adequate representation for 3D data and most 3D sensors have the ability to generate this data. Due to point cloud's irregular format, analyzing this data using deep learning algorithms is quite challenging. In this paper, a new convolutional neural network, called Point-PlaneNet, is proposed that uses the concept of the distance between points and planes in order to exploit spatial local correlations. In the proposed method an alternative simple local operation, called PlaneConv, is introduced which can extract local geometric features from point clouds by learning a set of planes in Rn space. Our network takes raw point clouds as input and therefore avoids the need to transform point clouds to images or volumes. PlaneConv has a simple theoretical analysis and is easy to incorporate into deep learning models to improve their performance. In order to evaluate the proposed method for classification, part segmentation and scene semantic segmentation tasks, it has been applied on four Datasets: ModelNet-40, MNIST, ShapeNet-Part and S3DIS. The experimental results show the acceptable performance of the proposed method compared to previous approaches in all tasks."
+    }
+}
