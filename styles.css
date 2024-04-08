@@ -181,6 +181,7 @@ header {
 }
 header.scrolled {
   background-color: #ffffff;
+  z-index: 6;
   transition: top 0.45s ease-in-out, background-color 0.45s ease-in-out;
   left: 0;
   top: 0;
@@ -270,9 +271,7 @@ header.scrolled .logo {
   margin-top: 2.5rem;
   z-index: 5;
 }
-.btn:hover {
-  color: yellow;
-}
+
 .btn_learn {
   background-color: var(--btnLearnMore);
   border: none;
