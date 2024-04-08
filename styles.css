@@ -966,6 +966,7 @@ header.scrolled .logo {
   transform: translateX(-50%);
 }
 .icon_copy {
+  display: none;
   width: 1.5rem;
   height: 1.8rem;
   cursor: pointer;
