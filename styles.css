@@ -151,7 +151,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: -5.6rem;
+  margin-top: -6.6rem;
   min-height: 101vh;
   background: rgb(54, 83, 100);
   background: linear-gradient(
@@ -173,7 +173,7 @@ header {
   align-items: center;
   position: sticky;
   justify-content: space-between;
-  padding: 1rem 9rem;
+  padding: 0.4rem 9rem;
   top: 2.83rem;
   z-index: 10;
   color: #000;
@@ -183,8 +183,8 @@ header.scrolled {
   background-color: #ffffff;
   transition: top 0.45s ease-in-out, background-color 0.45s ease-in-out;
   left: 0;
-  top: 0;
-  opacity: 0.97;
+  top: -0.0625rem;
+  opacity: 0.98;
 }
 .hamburger {
   display: none;
@@ -199,15 +199,39 @@ header.scrolled {
   transition: all 0.3s ease-in-out;
   background-color: black;
 }
-
+header.scrolled p {
+  color: black;
+  transition: color 0.5s ease-in-out;
+}
 header.scrolled a {
   color: black;
   transition: color 0.5s ease-in-out;
 }
+
+.logo_box {
+  display: flex;
+  align-items: center;
+}
+.text_logo_box {
+  font-family: "Quantico", sans-serif;
+  color: #ffffff;
+  margin-left: 0.4rem;
+}
+.text_logo {
+  display: flex;
+  height: 2.2rem;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.text_logo_under {
+  font-size: 0.593rem;
+  padding-left: 0.15rem;
+}
 .logo {
-  width: 5%;
-  min-width: 4.1rem;
-  min-height: 2.1rem;
+  width: 3%;
+  min-width: 3.7rem;
+  min-height: 1.8rem;
 }
 header.scrolled .logo {
   width: 5%;
@@ -247,6 +271,9 @@ header.scrolled .logo {
   padding: 0 0.7rem;
   font-weight: 900;
   font-size: 0.8rem;
+}
+.header_list_item a {
+  cursor: pointer;
 }
 .link_header {
   color: #ffffff;
@@ -744,8 +771,8 @@ header.scrolled .logo {
   padding-bottom: 1rem;
 }
 .riv_icon_footer {
-  width: 6rem;
-  height: 3rem;
+  width: 9rem;
+  height: 2.3rem;
   margin-bottom: 1rem;
 }
 .right_footer {
@@ -1208,6 +1235,9 @@ header.scrolled .logo {
     margin: 1.3rem 0;
     width: 100%;
   }
+  .header {
+    padding: 0.4rem 3rem;
+  }
   .containe {
     padding: 3rem 3rem;
   }
@@ -1221,6 +1251,7 @@ header.scrolled .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 2.3rem;
   }
   .contanin_footer {
     justify-content: center;
@@ -1268,6 +1299,9 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 750px) {
+  .text_logo_box p {
+    color: #000;
+  }
   .card1 {
     width: 30%;
     margin: 0.7rem 1.6%;
@@ -1451,6 +1485,18 @@ header.scrolled .logo {
 }
 
 @media screen and (max-width: 468px) {
+  .text_logo {
+    font-size: 2rem;
+    height: 2rem;
+  }
+  .text_logo_under {
+    font-size: 0.465rem;
+  }
+  .logo {
+    width: 3%;
+    min-width: 3rem;
+    min-height: 1rem;
+  }
   .header-text-modal {
     font-weight: 700;
     font-size: 0.8rem;
@@ -1462,8 +1508,6 @@ header.scrolled .logo {
     margin-top: 1.5rem;
   }
   .riv_icon_footer {
-    width: 4.5rem;
-    height: 2.5rem;
     margin-bottom: 2rem;
   }
   .head_text_footer {
@@ -1591,6 +1635,18 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 300px) {
+  .text_logo {
+    font-size: 1.5rem;
+    height: 1.5rem;
+  }
+  .text_logo_under {
+    font-size: 0.347rem;
+  }
+  .logo {
+    width: 3%;
+    min-width: 2.35rem;
+    min-height: 1.2rem;
+  }
   .head_text_footer {
     font-size: 4.5vmin;
     width: 42%;
