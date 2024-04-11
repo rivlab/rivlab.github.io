@@ -106,7 +106,7 @@ div {
 /* variables  */
 :root {
   --titleColor: #93c8ec;
-  --btnLearnMore: #c46053;
+  --btnLearnMore: #bf1e2e;
   --horizontalRuler: #efefef;
   --gray: #1e1e1e;
   --lightGray: #d4dbe1;
@@ -352,7 +352,8 @@ header.scrolled .logo {
 
 .wrap_box_team {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .box_team {
   display: flex;
@@ -471,7 +472,7 @@ header.scrolled .logo {
   font-size: 1.6rem;
   margin-bottom: 1.3rem;
   font-weight: 900;
-  color: #c46053;
+  color: #bf1e2e;
 }
 .list_text_explan_join {
   margin-top: 1.6rem;
@@ -570,6 +571,16 @@ header.scrolled .logo {
   font-size: 1rem;
   line-height: 1.6rem;
   color: var(--mediumGray);
+}
+.loadmoreBtn {
+  background-color: var(--btnLearnMore);
+  padding: 0.5rem 1.3rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  white-space: nowrap;
+  margin-top: 2rem;
 }
 .arrow {
   width: 4rem;

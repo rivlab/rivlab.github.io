@@ -1,0 +1,46 @@
+{
+  "publications": [
+    {
+      "title": "An Efficient Approach for Using Expectation Maximization Algorithm in Capsule Networks",
+      "abstract": "The paper investigates optimizing Capsule Networks (CapsNets) by adjusting Expectation-Maximization (EM) routing iterations to address their drawbacks, achieving faster training and improved accuracies across multiple datasets.",
+      "journal": "International Conference on Machine Vision and Image Processing (MVIP)",
+      "year": "2020",
+      "author": "M. Hasani | AN. Saravi | H. Khotanlou",
+      "image": "./image/publications/Efficient.gif",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9116870/",
+      "bibtex": "data/bibTex/efficient.json",
+      "pdf": "https://arxiv.org/abs/1912.05333",
+      "code": "",
+      "website": "",
+      "youtube": ""
+    },
+    {
+      "title": "Glioma Brain Tumors Diagnosis and Classification in MR Images based on Convolutional Neural Networks",
+      "abstract": "This paper proposes a novel Convolutional Neural Network-based method for classifying Glioma tumors in MRI images into three categories: Normal Brain, High-Grade Glioma, and Low-Grade Glioma, achieving an accuracy of 99.18%.",
+      "journal": "9th International Conference on Computer and Knowledge Engineering (ICCKE)",
+      "year": "2019",
+      "author": "F. BashirGonbadi | H. Khotanlou",
+      "image": "./image/publications/glioma.gif",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8965143/",
+      "bibtex": "data/bibTex/glioma.json",
+      "pdf": "",
+      "code": "",
+      "website": "",
+      "youtube": ""
+    },
+    {
+      "title": "Kernel Correlation Based CNN for Point Cloud Classification Task",
+      "abstract": "A novel method for processing point cloud data, leveraging adapted kernel correlation techniques to develop a CNN-like approach.",
+      "journal": "8th International Conference on Computer and Knowledge Engineering (ICCKE)",
+      "year": "2018",
+      "author": "F. Azizmalayeri | SMM. Peyghambarzadeh | H. Khotanlou; | A. Salarpour",
+      "image": "./image/publications/kernel.gif",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8566273/",
+      "bibtex": "data/bibTex/kernel.json",
+      "pdf": "",
+      "code": "",
+      "website": "",
+      "youtube": ""
+    }
+  ]
+}
