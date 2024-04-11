@@ -614,7 +614,7 @@ header.scrolled .logo {
     transform: scale(1);
   }
   100% {
-    transform: scale(1.032);
+    transform: scale(1.022);
   }
 }
 @keyframes example1 {
