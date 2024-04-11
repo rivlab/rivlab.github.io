@@ -609,6 +609,14 @@ header.scrolled .logo {
     transform: scale(1.052);
   }
 }
+@keyframes exampleMo {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.032);
+  }
+}
 @keyframes example1 {
   0% {
     color: var(--darkGray);
@@ -1457,6 +1465,9 @@ header.scrolled .logo {
   }
 }
 @media screen and (max-width: 580px) {
+  .card_research:hover {
+    animation-name: exampleMo;
+  }
   .icons_team {
     margin: 0.3rem 0;
     display: flex;
