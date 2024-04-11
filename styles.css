@@ -657,7 +657,7 @@ header.scrolled .logo {
 .left_research_box {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1rem;
   flex: 5;
 }
@@ -695,6 +695,7 @@ header.scrolled .logo {
 }
 .icons_research_box {
   display: flex;
+  margin-top: 1rem;
   flex-wrap: wrap;
 }
 .box_team1 {
@@ -874,6 +875,8 @@ header.scrolled .logo {
 
 .modal {
   display: none;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -892,6 +895,7 @@ header.scrolled .logo {
 }
 #textBib {
   overflow-x: auto;
+  max-height: 50vh;
 }
 .header-text-modal {
   font-weight: 700;
