@@ -31,9 +31,9 @@
     {
       "title": "Farsi Text Detection and Localization in Videos and Images",
       "abstract": "A new framework for the Farsi text detection and localization using the up-to-date real-time object detection framework YOLOv5 in videos and images.",
-      "journal": "arXiv",
-      "year": "2023",
-      "author": "H. Shakibania | S. Raoufi | H. Khotanlou",
+      "journal": "9th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS)",
+      "year": "2022",
+      "author": "M. Mosannafat | f. Taherinezhad | H. Khotanlou | E. Alighardash",
       "image": "./image/publications/Farsi_text.webp",
       "url": "https://ieeexplore.ieee.org/abstract/document/9756472",
       "bibtex": "data/bibTex/farsi_text.json",
