@@ -303,6 +303,7 @@ header.scrolled .logo {
   background-color: var(--btnLearnMore);
   border: none;
   font-weight: 700;
+  cursor: pointer;
   color: #ffffff;
   font-size: 2.5vmin;
   padding: 1.5% 4%;
