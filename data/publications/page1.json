@@ -29,6 +29,20 @@
       "youtube": ""
     },
     {
+      "title": "Farsi Text Detection and Localization in Videos and Images",
+      "abstract": "A new framework for the Farsi text detection and localization using the up-to-date real-time object detection framework YOLOv5 in videos and images.",
+      "journal": "9th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS)",
+      "year": "2022",
+      "author": "M. Mosannafat | f. Taherinezhad | H. Khotanlou | E. Alighardash",
+      "image": "./image/publications/Farsi_text.webp",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9756472",
+      "bibtex": "data/bibTex/farsi_text.json",
+      "pdf": "",
+      "code": "",
+      "website": "",
+      "youtube": ""
+    },
+    {
       "title": "Brain tumor classification using deep convolutional autoencoder-based neural network: multi-task approach",
       "abstract": "This paper proposes a Convolutional Neural Network (CNN) method utilizing a Convolutional Auto-Encoder Neural Network (CANN) to diagnose and classify brain tumors in MRI images into 5 categories, achieving high accuracy rates up to 99.3%.",
       "journal": "Multimedia Tools and Applications",

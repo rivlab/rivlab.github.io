@@ -33,7 +33,7 @@
       "abstract": "A novel method for processing point cloud data, leveraging adapted kernel correlation techniques to develop a CNN-like approach.",
       "journal": "8th International Conference on Computer and Knowledge Engineering (ICCKE)",
       "year": "2018",
-      "author": "F. Azizmalayeri | SMM. Peyghambarzadeh | H. Khotanlou; | A. Salarpour",
+      "author": "F. Azizmalayeri | SMM. Peyghambarzadeh | H. Khotanlou | A. Salarpour",
       "image": "./image/publications/kernel.gif",
       "url": "https://ieeexplore.ieee.org/abstract/document/8566273/",
       "bibtex": "data/bibTex/kernel.json",
