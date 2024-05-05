@@ -1,6 +1,20 @@
 {
   "alumni": [
     {
+      "name": "Saleh Aslani",
+      "degree": "BSc",
+      "entry_year": "2019",
+      "graduation_year": "2024",
+      "current_position": "MSc",
+      "current_company": "TU Darmstadt",
+      "country": "Germany",
+      "linkedin": "https://www.linkedin.com/in/salehaslani/",
+      "github": "https://github.com/SalehAslani",
+      "google_scholar": "",
+      "researchgate": "",
+      "homepage": ""
+    },
+    {
       "name": "Behnam Pourafkham",
       "degree": "BSc",
       "entry_year": "2019",
