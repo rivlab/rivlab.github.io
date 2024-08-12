@@ -1,6 +1,20 @@
 {
   "alumni": [
     {
+      "name": "Reza Yazdi",
+      "degree": "PhD",
+      "entry_year": "2019",
+      "graduation_year": "2024",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "https://www.linkedin.com/in/reza-yazdi/",
+      "github": "",
+      "google_scholar": "https://scholar.google.com/citations?user=JNsIaEQAAAAJ&hl=en",
+      "researchgate": "https://www.researchgate.net/profile/Reza-Yazdi",
+      "homepage": ""
+    },
+    {
       "name": "Saleh Aslani",
       "degree": "BSc",
       "entry_year": "2019",
