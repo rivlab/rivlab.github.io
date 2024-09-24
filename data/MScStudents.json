@@ -1,16 +1,6 @@
 {
   "MScStudents": [
     {
-      "name": "Hamed Shaabani",
-      "field": "Visual Question Answering",
-      "image": "./image/profiles/Hamed_Shaabani.webp",
-      "linkedin": "https://www.linkedin.com/in/hamed-shaabani-100937187/",
-      "github": "https://github.com/shaabanihamed",
-      "google_scholar": "",
-      "researchgate": "",
-      "homepage": ""
-    },
-    {
       "name": "Ehsan Akefi",
       "field": "Image Captioning",
       "image": "./image/profiles/Ehsan_Akefi.webp",

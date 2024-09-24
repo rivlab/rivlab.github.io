@@ -1,6 +1,48 @@
 {
   "alumni": [
     {
+      "name": "Hamed Shaabani",
+      "degree": "MSc",
+      "entry_year": "2022",
+      "graduation_year": "2024",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "https://www.linkedin.com/in/hamed-shaabani-100937187/",
+      "github": "https://github.com/shaabanihamed",
+      "google_scholar": "",
+      "researchgate": "",
+      "homepage": ""
+    },
+    {
+      "name": "Hossein Shakibania",
+      "degree": "BSc",
+      "entry_year": "2019",
+      "graduation_year": "2024",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "https://www.linkedin.com/in/hossein-shakibania/",
+      "github": "https://github.com/hossshakiba",
+      "google_scholar": "https://scholar.google.com/citations?user=huveR90AAAAJ&hl=en&authuser=1",
+      "researchgate": "https://www.researchgate.net/profile/Hossein-Shakibania",
+      "homepage": "https://hossshakiba.github.io/"
+    },
+    {
+      "name": "Sina Raoufi",
+      "degree": "BSc",
+      "entry_year": "2019",
+      "graduation_year": "2024",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "https://www.linkedin.com/in/sinaraoufi/",
+      "github": "https://github.com/SinaRaoufi/",
+      "google_scholar": "https://scholar.google.com/citations?user=f0iw8XsAAAAJ&hl=en",
+      "researchgate": "https://www.researchgate.net/profile/Sina-Raoufi",
+      "homepage": ""
+    },
+    {
       "name": "Reza Yazdi",
       "degree": "PhD",
       "entry_year": "2019",
