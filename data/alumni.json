@@ -1,9 +1,23 @@
 {
   "alumni": [
     {
-      "name": "Hamed Shaabani",
+      "name": "Ehsan Akefi",
       "degree": "MSc",
       "entry_year": "2022",
+      "graduation_year": "2025",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "https://www.linkedin.com/in/ehsan-akefi-4102a9122/",
+      "github": "https://github.com/ehsanakefi",
+      "google_scholar": "",
+      "researchgate": "",
+      "homepage": ""
+    },
+    {
+      "name": "Hamed Shaabani",
+      "degree": "MSc",
+      "entry_year": "2021",
       "graduation_year": "2024",
       "current_position": "",
       "current_company": "",
