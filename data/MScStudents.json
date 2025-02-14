@@ -1,16 +1,6 @@
 {
   "MScStudents": [
     {
-      "name": "Ehsan Akefi",
-      "field": "Image Captioning",
-      "image": "./image/profiles/Ehsan_Akefi.webp",
-      "linkedin": "https://www.linkedin.com/in/ehsan-akefi-4102a9122/",
-      "github": "https://github.com/ehsanakefi",
-      "google_scholar": "",
-      "researchgate": "",
-      "homepage": ""
-    },
-    {
       "name": "Ali Nafisi",
       "field": "Multimodal Generative Models",
       "image": "./image/profiles/Ali_Nafisi.webp",
