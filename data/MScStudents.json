@@ -2,12 +2,12 @@
   "MScStudents": [
     {
       "name": "Ali Nafisi",
-      "field": "Multimodal Generative Models",
+      "field": "Trustworthy AI",
       "image": "./image/profiles/Ali_Nafisi.webp",
       "linkedin": "https://www.linkedin.com/in/safinal/",
       "github": "https://github.com/safinal/",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=SM_UuoQAAAAJ",
-      "researchgate": "https://researchgate.net/profile/Ali-Nafisi",
+      "researchgate": "",
       "homepage": "https://safinal.github.io/"
     },
     {
@@ -18,16 +18,6 @@
       "github": "https://github.com/allirezamaleki",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=4WBELHEAAAAJ",
       "researchgate": "https://www.researchgate.net/profile/Alireza-Maleki-11",
-      "homepage": ""
-    },
-    {
-      "name": "Mahdi Safaripour",
-      "field": "Driving Behavior Analysis",
-      "image": "./image/profiles/Mahdi_Safaripour.webp",
-      "linkedin": "https://www.linkedin.com/in/mahdi-safari-pour-6284721b4",
-      "github": "https://github.com/MHDI-SP",
-      "google_scholar": "",
-      "researchgate": "",
       "homepage": ""
     }
   ]
