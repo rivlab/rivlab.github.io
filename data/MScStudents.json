@@ -12,12 +12,22 @@
     },
     {
       "name": "Alireza Maleki",
-      "field": "Machine Learning",
+      "field": "Federated Learning",
       "image": "./image/profiles/Alireza_Maleki.webp",
       "linkedin": "",
       "github": "https://github.com/allirezamaleki",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=4WBELHEAAAAJ",
       "researchgate": "https://www.researchgate.net/profile/Alireza-Maleki-11",
+      "homepage": ""
+    },
+    {
+      "name": "Erfan Safari",
+      "field": "Bioinformatics",
+      "image": "./image/profiles/Erfan_Safari.webp",
+      "linkedin": "https://www.linkedin.com/in/erfansafari13761997/",
+      "github": "https://github.com/erfansafari",
+      "google_scholar": "",
+      "researchgate": "",
       "homepage": ""
     }
   ]
