@@ -1,16 +1,16 @@
 {
-  "alumni": [
+  "alumni": [ 
     {
-      "name": "Ehsan Akefi",
-      "degree": "MSc",
-      "entry_year": "2022",
+      "name": "Elham Alighardash",
+      "degree": "PhD",
+      "entry_year": "2019",
       "graduation_year": "2025",
       "current_position": "",
       "current_company": "",
       "country": "",
-      "linkedin": "https://www.linkedin.com/in/ehsan-akefi-4102a9122/",
-      "github": "https://github.com/ehsanakefi",
-      "google_scholar": "",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "https://scholar.google.com/citations?user=RP3j9S8AAAAJ&hl=en",
       "researchgate": "",
       "homepage": ""
     },
