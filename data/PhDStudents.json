@@ -1,16 +1,6 @@
 {
   "PhDStudents": [
     {
-      "name": "Elham Alighardash",
-      "field": "Visual Question Answering",
-      "image": "./image/profiles/Elham_Alighardash.webp",
-      "linkedin": "",
-      "github": "",
-      "google_scholar": "https://scholar.google.com/citations?user=RP3j9S8AAAAJ&hl=en",
-      "researchgate": "",
-      "homepage": ""
-    },
-    {
       "name": "Mojtaba Kordabadi",
       "field": "Machine Learning",
       "image": "./image/profiles/Mojtaba_Kordabadi.webp",
@@ -36,6 +26,16 @@
       "image": "./image/profiles/Zahra_Aghaei.webp",
       "linkedin": "",
       "github": "",
+      "google_scholar": "",
+      "researchgate": "",
+      "homepage": ""
+    },
+ {
+      "name": "Ehsan Akefi",
+      "field": "Computer Vision",
+      "image": "./image/profiles/Ehsan_Akefi.webp",
+      "linkedin": "https://www.linkedin.com/in/ehsan-akefi-4102a9122/",
+      "github": "https://github.com/ehsanakefi",
       "google_scholar": "",
       "researchgate": "",
       "homepage": ""
