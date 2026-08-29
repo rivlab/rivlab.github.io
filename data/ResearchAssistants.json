@@ -1,3 +1,14 @@
 {
-  "ResearchAssistants": []
+  "ResearchAssistants": [
+    {
+      "name": "Kobra Farshidi",
+      "field": "Multimodal AI",
+      "image": "./image/profiles/Kobra_Farshidi.webp",
+      "linkedin": "https://www.linkedin.com/in/kobra-farshidi/",
+      "github": "https://github.com/kobrafarshidi",
+      "google_scholar": "https://scholar.google.com/citations?user=B6MqC18AAAAJ&hl=en",
+      "researchgate": "",
+      "homepage": ""
+    },
+  ]
 }
