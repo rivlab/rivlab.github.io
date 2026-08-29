@@ -1,6 +1,62 @@
 {
   "alumni": [ 
     {
+      "name": "Ali Nafisi",
+      "degree": "MSc",
+      "entry_year": "2023",
+      "graduation_year": "2026",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "https://www.linkedin.com/in/safinal/",
+      "github": "https://github.com/safinal/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=SM_UuoQAAAAJ",
+      "researchgate": "",
+      "homepage": "https://safinal.github.io/"
+    },
+    {
+      "name": "Alireza Maleki",
+      "degree": "MSc",
+      "entry_year": "2023",
+      "graduation_year": "2026",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "",
+      "github": "https://github.com/allirezamaleki",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=4WBELHEAAAAJ",
+      "researchgate": "",
+      "homepage": ""
+    },
+    {
+      "name": "Erfan Safari",
+      "degree": "MSc",
+      "entry_year": "2023",
+      "graduation_year": "2026",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "https://www.linkedin.com/in/erfansafari13761997/",
+      "github": "https://github.com/erfansafari",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=R0omuuEAAAAJ",
+      "researchgate": "",
+      "homepage": ""
+    },
+    {
+      "name": "Hanie zomorrodi",
+      "degree": "MSc",
+      "entry_year": "2023",
+      "graduation_year": "2026",
+      "current_position": "",
+      "current_company": "",
+      "country": "",
+      "linkedin": "",
+      "github": "",
+      "google_scholar": "",
+      "researchgate": "",
+      "homepage": ""
+    },
+    {
       "name": "Elham Alighardash",
       "degree": "PhD",
       "entry_year": "2019",
