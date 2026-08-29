@@ -1,44 +1,4 @@
 {
   "MScStudents": [
-    {
-      "name": "Ali Nafisi",
-      "field": "Trustworthy AI",
-      "image": "./image/profiles/Ali_Nafisi.webp",
-      "linkedin": "https://www.linkedin.com/in/safinal/",
-      "github": "https://github.com/safinal/",
-      "google_scholar": "https://scholar.google.com/citations?hl=en&user=SM_UuoQAAAAJ",
-      "researchgate": "",
-      "homepage": "https://safinal.github.io/"
-    },
-    {
-      "name": "Alireza Maleki",
-      "field": "Federated Learning",
-      "image": "./image/profiles/Alireza_Maleki.webp",
-      "linkedin": "",
-      "github": "https://github.com/allirezamaleki",
-      "google_scholar": "https://scholar.google.com/citations?hl=en&user=4WBELHEAAAAJ",
-      "researchgate": "https://www.researchgate.net/profile/Alireza-Maleki-11",
-      "homepage": ""
-    },
-    {
-      "name": "Erfan Safari",
-      "field": "Bioinformatics",
-      "image": "./image/profiles/Erfan_Safari.webp",
-      "linkedin": "https://www.linkedin.com/in/erfansafari13761997/",
-      "github": "https://github.com/erfansafari",
-      "google_scholar": "",
-      "researchgate": "",
-      "homepage": ""
-    },
-    {
-      "name": "Hanie zomorrodi",
-      "field": "Medical Image Analysis ",
-      "image": "./image/profiles/Hanie_zomorrodi.webp",
-      "linkedin": "https://www.linkedin.com/in/erfansafari13761997/",
-      "github": "https://github.com/erfansafari",
-      "google_scholar": "",
-      "researchgate": "",
-      "homepage": ""
-    }
   ]
 }
