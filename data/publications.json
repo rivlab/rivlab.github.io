@@ -1,6 +1,20 @@
 {
   "publications": [
     {
+      "title": "The evolution and open challenges of text-based visual question answering: a review of research and data trends",
+      "abstract": "This review examines the evolution of TextVQA methods and datasets, from OCR-based attention models to transformer, graph, and LLM-based approaches, while identifying key challenges and future directions for robust, scalable, and efficient multimodal reasoning.",
+      "journal": "Multimedia Tools and Applications",
+      "year": "2026",
+      "author": "K. Farshidi | H. Khotanlou | E. Alighardash",
+      "image": "./image/publications/TextVQA.webp",
+      "url": "https://doi.org/10.1007/s11042-026-21656-1",
+      "bibtex": "data/bibTex/TextVQA.json",
+      "pdf": "",
+      "code": "",
+      "website": "",
+      "youtube": ""
+    },
+    {
       "title": "Dual branch deep learning network for detection and stage grading of diabetic retinopathy",
       "abstract": "A deep learning approach to diabetic retinopathy detection and grading. A dual-branch model is trained on a selectively merged and augmented dataset from public sources that significantly enhanced the classification outcomes.",
       "journal": "Biomedical Signal Processing and Control",
